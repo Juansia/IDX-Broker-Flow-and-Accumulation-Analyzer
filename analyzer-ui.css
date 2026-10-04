@@ -1,0 +1,122 @@
+#panel-python .py-hero{display:flex;justify-content:space-between;gap:24px;align-items:center;padding:26px 28px;background:linear-gradient(125deg,var(--surface),var(--divmid));border:1px solid var(--border);border-radius:16px;margin-bottom:18px}
+#panel-python .py-eyebrow{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--blue);font-weight:750;margin:0 0 6px}
+#panel-python .py-hero h2{font-size:26px;line-height:1.2;letter-spacing:-.03em;margin:0 0 9px}
+#panel-python .py-hero p{max-width:710px;margin:0;color:var(--ink2);font-size:13px}
+#panel-python .py-engine{flex:none;font-size:11px;border:1px solid var(--border);border-radius:30px;padding:7px 12px;color:var(--ink2);background:var(--surface)}
+#panel-python .py-layout{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:16px;align-items:start}
+#panel-python .py-label{display:block;font-size:12px;font-weight:600;margin-bottom:6px;color:var(--ink2)}
+#panel-python .py-label>input,#panel-python .py-label>select{margin-top:4px}
+#panel-python .py-upload{display:block;border:1px dashed var(--baseline);border-radius:10px;padding:16px;margin:12px 0;background:var(--page)}
+#panel-python .py-upload strong{display:block;font-size:13px;margin-bottom:8px}
+#panel-python input[type=file]{max-width:100%;font:12px inherit;color:var(--ink2)}
+#panel-python input[type=file]::file-selector-button{font:inherit;padding:6px 10px;background:var(--surface);color:var(--ink);border:1px solid var(--border);border-radius:7px;cursor:pointer;margin-right:10px}
+#panel-python .py-inline{display:flex;gap:9px;flex-wrap:wrap;align-items:center}
+#panel-python .py-inline .py-label{flex:1;min-width:150px}
+#panel-python .py-file-list{list-style:none;padding:0;margin:8px 0 0;max-height:172px;overflow:auto}
+#panel-python .py-file-list li{display:flex;align-items:center;justify-content:space-between;gap:10px;font-size:11.5px;padding:6px 0;border-top:1px solid var(--border)}
+#panel-python .py-file-list span{overflow-wrap:anywhere}
+#panel-python .py-remove{border:0;background:none;color:var(--muted);cursor:pointer;padding:4px 7px;font:inherit}
+#panel-python .py-remove:hover{color:var(--neg)}
+#panel-python .py-context{margin:0;border-bottom:1px solid var(--border);padding:11px 0}
+#panel-python .py-context:first-of-type{padding-top:0}
+#panel-python .py-context:last-of-type{border-bottom:0;padding-bottom:0}
+#panel-python .py-context summary{font-size:12.5px}
+#panel-python .py-context textarea{min-height:116px;margin-top:8px;font-size:11.5px}
+#panel-python .py-context p{margin:7px 0;color:var(--muted);font-size:11.5px;line-height:1.55}
+#panel-python .py-fund-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px 12px;margin-top:10px}
+#panel-python .py-fund-grid .py-label{font-size:11.5px;margin:0}
+#panel-python .py-span{grid-column:1/-1}
+#panel-python .py-actions{margin-top:16px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+#panel-python .py-status{font-size:12px;color:var(--ink2);flex:1;min-width:200px;overflow-wrap:anywhere}
+#panel-python .py-status[data-kind=error]{color:var(--neg)}
+#panel-python .py-status[data-kind=success]{color:var(--aqua)}
+#panel-python button:disabled{opacity:.48;cursor:not-allowed;transform:none}
+#panel-python .py-empty{padding:32px 20px;text-align:center;border:1px dashed var(--baseline);border-radius:14px;margin-top:22px;color:var(--muted);font-size:13px}
+#panel-python .py-empty b{display:block;color:var(--ink2);margin-bottom:5px;font-size:14px}
+#panel-python .py-results{margin-top:22px}
+#panel-python .py-stale{padding:9px 12px;border-radius:8px;background:var(--divmid);font-size:12px;margin-bottom:12px;border-left:3px solid var(--yellow)}
+#panel-python .py-results-head{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:12px}
+#panel-python .py-results-head h2{font-size:20px;margin:0;font-weight:750}
+#panel-python .py-results-head p{margin:2px 0 0;color:var(--muted);font-size:12px}
+#panel-python .py-stat-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+#panel-python .py-stat{padding:16px;background:var(--surface);border:1px solid var(--border);border-radius:12px}
+#panel-python .py-stat-label{font-size:10px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);font-weight:650}
+#panel-python .py-stat-value{font-size:25px;font-weight:750;letter-spacing:-.03em;margin:4px 0}
+#panel-python .py-stat-detail{font-size:11.5px;color:var(--ink2);line-height:1.5}
+#panel-python .py-score-value{color:var(--blue)}
+#panel-python .py-result-grid{display:grid;grid-template-columns:1.12fr 1fr;gap:14px;margin-top:14px}
+#panel-python .py-evidence{display:grid;grid-template-columns:115px 1fr 54px;gap:9px;align-items:center;margin-top:13px;font-size:12px}
+#panel-python .py-track{height:6px;background:var(--divmid);border-radius:10px;overflow:hidden}
+#panel-python .py-track>span{display:block;height:100%;background:var(--blue);border-radius:10px}
+#panel-python .py-evidence-value{text-align:right;font-variant-numeric:tabular-nums;font-weight:650}
+#panel-python .py-evidence-note{grid-column:1/-1;font-size:11px;color:var(--muted);margin-top:-5px}
+#panel-python .py-interpretation{font-size:12px;color:var(--ink2);line-height:1.65;margin:8px 0}
+#panel-python .py-warning-list{margin:8px 0 0;padding-left:18px;font-size:12px;color:var(--ink2)}
+#panel-python .py-warning-list li{margin:6px 0}
+#panel-python .py-table-note{font-size:11px;color:var(--muted);margin:8px 0 0}
+#panel-python .py-table{font-size:12px;white-space:nowrap}
+#panel-python .py-table td{padding:8px}
+#panel-python .py-table th{font-size:10px;white-space:normal}
+#panel-python .py-table .py-code{font-weight:750;color:var(--ink)}
+#panel-python .py-broker-filter{width:160px;font-size:12px}
+#panel-python .py-between{justify-content:space-between;margin-bottom:10px}
+#panel-python .py-between h2{margin:0}
+#panel-python .py-method{margin-top:18px;font-size:12px;color:var(--ink2)}
+#panel-python .py-method p{max-width:960px;line-height:1.65;margin:8px 0}
+#panel-python .py-method a{color:var(--blue)}
+#panel-python .py-pair-line{display:flex;justify-content:space-between;border-bottom:1px solid var(--border);padding:7px 0;font-size:12px;gap:12px}
+#panel-python .py-subheading{font-size:12px;color:var(--ink2);font-weight:650;margin:12px 0 4px}
+#panel-python .py-tape-info{padding:9px 11px;background:var(--page);border-radius:8px;font-size:11.5px;color:var(--ink2);margin:8px 0}
+#panel-python [hidden]{display:none!important}
+#panel-python .py-pair-surveillance{margin-top:22px;padding-top:16px;border-top:2px solid var(--grid)}
+#panel-python .py-pair-surveillance h3{font-size:17px;color:var(--ink);margin:0 0 8px}
+#panel-python .py-pair-meta{font-size:11px;color:var(--ink2);margin:10px 0}
+#panel-python .py-pair-meta span{background:var(--divmid);padding:5px 9px;border-radius:6px}
+#panel-python .py-pair-tag{font-size:11px;padding:4px 7px;border-radius:5px;color:var(--muted);background:var(--divmid);white-space:nowrap}
+#panel-python .py-pair-flag{color:var(--ink);border:1px solid var(--yellow)}
+#panel-python .py-pair-detail{border-top:1px solid var(--grid);padding:9px 0;margin:0}
+#panel-python .py-demo-controls{margin-top:12px}
+#panel-python .py-tape-price{margin-top:18px}
+#panel-python .py-tape-price h3{font-size:15px;margin:0}
+#panel-python .py-tape-price svg{display:block;width:100%;height:auto;min-height:100px}
+#panel-python .py-summary-crossing{border-color:var(--baseline)}
+#panel-python .py-summary-level{font-size:10px;font-weight:650;padding:5px 9px;color:var(--ink2);border:1px solid var(--border);border-radius:20px;white-space:nowrap}
+#panel-python .py-summary-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:15px 0}
+#panel-python .py-summary-stats .py-stat{background:var(--page)}
+#panel-python .py-summary-stats .py-stat-value{font-size:22px}
+#panel-python .py-summary-reading{display:grid;grid-template-columns:1fr 1fr;gap:18px;padding:12px 0;font-size:12px;color:var(--ink2)}
+#panel-python .py-summary-reading p{margin:4px 0 0}
+#panel-python .py-summary-reading b{color:var(--ink)}
+#panel-python .py-summary-alert{font-size:12px;color:var(--ink2);background:var(--page);padding:11px 13px;border-radius:8px;border-left:3px solid var(--yellow);margin:12px 0}
+#panel-python .py-summary-alert ul{padding-left:18px;margin:6px 0 0}
+#panel-python .py-summary-watchlist{margin:12px 0}
+#panel-python .py-summary-controls{padding:10px 0}
+#panel-python .py-summary-controls .py-label{max-width:310px}
+#panel-python .py-summary-example{padding:15px;background:var(--page);border:1px solid var(--border);border-radius:10px;margin:4px 0 12px}
+#panel-python .py-summary-example h3{margin:0;font-size:13px;color:var(--ink)}
+#panel-python .py-summary-example h3 span{display:block;margin-top:2px;font-size:10px;color:var(--muted);font-weight:400}
+#panel-python .py-summary-bar-label{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;font-size:11px;color:var(--ink2);margin:10px 0 4px}
+#panel-python .py-summary-gross-bar{display:flex;height:15px;overflow:hidden;border-radius:4px;background:var(--divmid)}
+#panel-python .py-summary-gross-bar span{height:100%}
+#panel-python .py-summary-buy{background:var(--blue)}
+#panel-python .py-summary-sell{background:var(--violet)}
+#panel-python .py-summary-dot{display:inline-block;width:8px;height:8px;border-radius:2px;margin-right:5px}
+#panel-python .py-summary-net-bar{height:8px;border-radius:4px;background:var(--divmid);overflow:hidden}
+#panel-python .py-summary-net-bar span{display:block;height:100%;border-radius:4px}
+#panel-python .py-summary-detail{border-top:1px solid var(--border);padding:11px 0;margin:0}
+#panel-python .py-summary-detail summary{margin-bottom:7px}
+#panel-python .py-summary-row-link{border:0;background:none;color:var(--blue);font:inherit;text-decoration:underline;cursor:pointer;padding:0}
+#panel-python .py-summary-next{display:flex;gap:18px;align-items:center;margin-top:10px;padding:12px;background:var(--page);border-radius:9px}
+#panel-python .py-summary-next p{margin:0;font-size:12px;color:var(--ink2);flex:1}
+#panel-python .py-summary-next button{flex:none}
+#panel-python .py-tape-explanation{padding:17px;background:var(--page);border:1px solid var(--baseline);border-radius:12px;margin:14px 0}
+#panel-python .py-tape-explanation h3{font-size:17px;color:var(--ink);margin:0}
+#panel-python .py-tape-explanation-example{margin-top:13px;padding-top:12px;border-top:1px solid var(--border)}
+#panel-python .py-explanation-evidence{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:12px 0}
+#panel-python .py-explanation-evidence>div{padding:10px;background:var(--surface);border:1px solid var(--border);border-radius:8px}
+#panel-python .py-explanation-evidence dt{font-size:11px;color:var(--ink2)}
+#panel-python .py-explanation-evidence dd{font-size:18px;font-weight:700;margin:3px 0;color:var(--ink)}
+#panel-python .py-explanation-evidence p{font-size:10.5px;color:var(--muted);margin:0}
+@media(max-width:700px){#panel-python .py-summary-stats,#panel-python .py-explanation-evidence{grid-template-columns:1fr}#panel-python .py-summary-reading{grid-template-columns:1fr;gap:10px}#panel-python .py-summary-next{align-items:flex-start;flex-direction:column}#panel-python .py-summary-controls .py-label{max-width:none}}
+@media(max-width:900px){#panel-python .py-layout,#panel-python .py-result-grid{grid-template-columns:1fr}#panel-python .py-stat-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:520px){#panel-python .py-hero{padding:20px;align-items:flex-start;flex-direction:column;gap:14px}#panel-python .py-hero h2{font-size:23px}#panel-python .py-stat-grid{grid-template-columns:1fr 1fr;gap:8px}#panel-python .py-stat{padding:12px}#panel-python .py-stat-value{font-size:21px}#panel-python .py-evidence{grid-template-columns:100px 1fr 48px}}

@@ -1,0 +1,968 @@
+{
+  "source": "SDMU\\Running trade 24 09 2026.txt",
+  "session_date_from_filename": "2026-09-24",
+  "date_in_trade_rows": false,
+  "quantity_unit": null,
+  "number_format": "en",
+  "quantity_note": "Qty unit unconfirmed. raw_qty is exported quantity, not assumed lots or shares; no rupiah turnover calculated. Commas parsed as grouping, supported by whole-share constraints (e.g. 1,001 cannot mean1.001lots or1.001shares).",
+  "trade_count": 31109,
+  "raw_qty_total": 9812652,
+  "stock_counts": {
+    "SDMU": 31109
+  },
+  "board_counts": {
+    "RG": 31109
+  },
+  "first_timestamp_bucket": {
+    "time": "08:58:00",
+    "count": 8,
+    "min_price": 90,
+    "max_price": 90,
+    "vwap": 90.0
+  },
+  "last_timestamp_bucket": {
+    "time": "16:14:58",
+    "count": 14,
+    "min_price": 76,
+    "max_price": 76,
+    "vwap": 76.0
+  },
+  "first_to_last_bucket_price_change_pct": -15.555555555555555,
+  "min_price": 76,
+  "max_price": 116,
+  "session_vwap": 99.22936755527456,
+  "distinct_timestamps": 5132,
+  "timestamps_with_multiple_prints": 2984,
+  "max_prints_one_timestamp": 517,
+  "max_timestamp_bucket": {
+    "time": "16:00:00",
+    "count": 517,
+    "min_price": 76,
+    "max_price": 76,
+    "vwap": 76.0
+  },
+  "prints_at_tied_timestamps": 28961,
+  "identical_rows_extra_count": 2709,
+  "same_broker_count": 4912,
+  "same_broker_qty_share_pct": 20.334309216305645,
+  "price_distribution": [
+    {
+      "price": 76,
+      "print_count": 1570,
+      "raw_qty": 324865,
+      "qty_share_pct": 3.310674830820455
+    },
+    {
+      "price": 77,
+      "print_count": 683,
+      "raw_qty": 260615,
+      "qty_share_pct": 2.655907903388401
+    },
+    {
+      "price": 78,
+      "print_count": 461,
+      "raw_qty": 178323,
+      "qty_share_pct": 1.817276308178462
+    },
+    {
+      "price": 79,
+      "print_count": 154,
+      "raw_qty": 60174,
+      "qty_share_pct": 0.6132287173742633
+    },
+    {
+      "price": 80,
+      "print_count": 160,
+      "raw_qty": 113335,
+      "qty_share_pct": 1.1549884781402622
+    },
+    {
+      "price": 81,
+      "print_count": 386,
+      "raw_qty": 119164,
+      "qty_share_pct": 1.2143913796188839
+    },
+    {
+      "price": 82,
+      "print_count": 388,
+      "raw_qty": 139400,
+      "qty_share_pct": 1.4206149367163943
+    },
+    {
+      "price": 83,
+      "print_count": 618,
+      "raw_qty": 172536,
+      "qty_share_pct": 1.7583014255473446
+    },
+    {
+      "price": 84,
+      "print_count": 273,
+      "raw_qty": 62673,
+      "qty_share_pct": 0.6386958388007646
+    },
+    {
+      "price": 85,
+      "print_count": 269,
+      "raw_qty": 61884,
+      "qty_share_pct": 0.6306551990226495
+    },
+    {
+      "price": 86,
+      "print_count": 83,
+      "raw_qty": 44183,
+      "qty_share_pct": 0.45026563664950103
+    },
+    {
+      "price": 87,
+      "print_count": 127,
+      "raw_qty": 63213,
+      "qty_share_pct": 0.644198938268676
+    },
+    {
+      "price": 88,
+      "print_count": 162,
+      "raw_qty": 50332,
+      "qty_share_pct": 0.5129296341091073
+    },
+    {
+      "price": 89,
+      "print_count": 430,
+      "raw_qty": 191373,
+      "qty_share_pct": 1.950267878652988
+    },
+    {
+      "price": 90,
+      "print_count": 839,
+      "raw_qty": 199681,
+      "qty_share_pct": 2.0349340830592992
+    },
+    {
+      "price": 91,
+      "print_count": 91,
+      "raw_qty": 49024,
+      "qty_share_pct": 0.499599904286833
+    },
+    {
+      "price": 92,
+      "print_count": 98,
+      "raw_qty": 33414,
+      "qty_share_pct": 0.34051956596443045
+    },
+    {
+      "price": 93,
+      "print_count": 211,
+      "raw_qty": 54098,
+      "qty_share_pct": 0.5513086574353192
+    },
+    {
+      "price": 94,
+      "print_count": 534,
+      "raw_qty": 182394,
+      "qty_share_pct": 1.8587635636115496
+    },
+    {
+      "price": 95,
+      "print_count": 459,
+      "raw_qty": 170758,
+      "qty_share_pct": 1.7401819610029992
+    },
+    {
+      "price": 96,
+      "print_count": 298,
+      "raw_qty": 112415,
+      "qty_share_pct": 1.1456128271949317
+    },
+    {
+      "price": 97,
+      "print_count": 434,
+      "raw_qty": 119927,
+      "qty_share_pct": 1.2221670553485438
+    },
+    {
+      "price": 98,
+      "print_count": 774,
+      "raw_qty": 277368,
+      "qty_share_pct": 2.826636468917883
+    },
+    {
+      "price": 99,
+      "print_count": 1162,
+      "raw_qty": 452763,
+      "qty_share_pct": 4.614073748870336
+    },
+    {
+      "price": 100,
+      "print_count": 1690,
+      "raw_qty": 629901,
+      "qty_share_pct": 6.419273810994214
+    },
+    {
+      "price": 101,
+      "print_count": 2191,
+      "raw_qty": 660133,
+      "qty_share_pct": 6.72736585379773
+    },
+    {
+      "price": 102,
+      "print_count": 2273,
+      "raw_qty": 678734,
+      "qty_share_pct": 6.916927248617396
+    },
+    {
+      "price": 103,
+      "print_count": 2399,
+      "raw_qty": 661439,
+      "qty_share_pct": 6.740675201770123
+    },
+    {
+      "price": 104,
+      "print_count": 2708,
+      "raw_qty": 799207,
+      "qty_share_pct": 8.144658548983497
+    },
+    {
+      "price": 105,
+      "print_count": 1517,
+      "raw_qty": 491721,
+      "qty_share_pct": 5.011091802705324
+    },
+    {
+      "price": 106,
+      "print_count": 772,
+      "raw_qty": 248111,
+      "qty_share_pct": 2.52848057793143
+    },
+    {
+      "price": 107,
+      "print_count": 386,
+      "raw_qty": 123391,
+      "qty_share_pct": 1.2574684193427017
+    },
+    {
+      "price": 108,
+      "print_count": 581,
+      "raw_qty": 325930,
+      "qty_share_pct": 3.321528165882169
+    },
+    {
+      "price": 109,
+      "print_count": 670,
+      "raw_qty": 220914,
+      "qty_share_pct": 2.251317992322565
+    },
+    {
+      "price": 110,
+      "print_count": 1315,
+      "raw_qty": 387331,
+      "qty_share_pct": 3.94726114815852
+    },
+    {
+      "price": 111,
+      "print_count": 1241,
+      "raw_qty": 291556,
+      "qty_share_pct": 2.971225311974785
+    },
+    {
+      "price": 112,
+      "print_count": 968,
+      "raw_qty": 248530,
+      "qty_share_pct": 2.5327505754815314
+    },
+    {
+      "price": 113,
+      "print_count": 666,
+      "raw_qty": 215805,
+      "qty_share_pct": 2.1992525568011585
+    },
+    {
+      "price": 114,
+      "print_count": 573,
+      "raw_qty": 195843,
+      "qty_share_pct": 1.995821313137366
+    },
+    {
+      "price": 115,
+      "print_count": 493,
+      "raw_qty": 140168,
+      "qty_share_pct": 1.4284415670707573
+    },
+    {
+      "price": 116,
+      "print_count": 2,
+      "raw_qty": 26,
+      "qty_share_pct": 0.0002649640484549946
+    }
+  ],
+  "top_pairs": [
+    {
+      "brokers": [
+        "CP",
+        "XL"
+      ],
+      "print_count": 5425,
+      "raw_qty": 1407277,
+      "qty_share_pct": 14.341454277599981,
+      "reciprocity_pct": 94.80578450440105
+    },
+    {
+      "brokers": [
+        "CP",
+        "CP"
+      ],
+      "print_count": 439,
+      "raw_qty": 1251259,
+      "qty_share_pct": 12.751486550221083,
+      "reciprocity_pct": null
+    },
+    {
+      "brokers": [
+        "CP",
+        "YP"
+      ],
+      "print_count": 1153,
+      "raw_qty": 657755,
+      "qty_share_pct": 6.703131834289039,
+      "reciprocity_pct": 89.24599584951844
+    },
+    {
+      "brokers": [
+        "CC",
+        "CP"
+      ],
+      "print_count": 678,
+      "raw_qty": 516596,
+      "qty_share_pct": 5.26459106060217,
+      "reciprocity_pct": 98.41191182277834
+    },
+    {
+      "brokers": [
+        "XL",
+        "YP"
+      ],
+      "print_count": 2727,
+      "raw_qty": 510528,
+      "qty_share_pct": 5.20275252806275,
+      "reciprocity_pct": 93.77546383352137
+    },
+    {
+      "brokers": [
+        "XL",
+        "XL"
+      ],
+      "print_count": 3826,
+      "raw_qty": 493455,
+      "qty_share_pct": 5.028762866552284,
+      "reciprocity_pct": null
+    },
+    {
+      "brokers": [
+        "CP",
+        "MG"
+      ],
+      "print_count": 416,
+      "raw_qty": 469489,
+      "qty_share_pct": 4.784527159426422,
+      "reciprocity_pct": 80.30177490846431
+    },
+    {
+      "brokers": [
+        "CC",
+        "XL"
+      ],
+      "print_count": 1508,
+      "raw_qty": 349728,
+      "qty_share_pct": 3.564051797618014,
+      "reciprocity_pct": 88.10732912434807
+    },
+    {
+      "brokers": [
+        "MG",
+        "XL"
+      ],
+      "print_count": 1429,
+      "raw_qty": 323946,
+      "qty_share_pct": 3.301309370800065,
+      "reciprocity_pct": 86.05384848091965
+    },
+    {
+      "brokers": [
+        "CP",
+        "XC"
+      ],
+      "print_count": 753,
+      "raw_qty": 210587,
+      "qty_share_pct": 2.146076310461229,
+      "reciprocity_pct": 49.8482812329346
+    },
+    {
+      "brokers": [
+        "AK",
+        "XL"
+      ],
+      "print_count": 805,
+      "raw_qty": 195717,
+      "qty_share_pct": 1.9945372565948531,
+      "reciprocity_pct": 94.37299774674658
+    },
+    {
+      "brokers": [
+        "CP",
+        "PD"
+      ],
+      "print_count": 367,
+      "raw_qty": 185824,
+      "qty_share_pct": 1.8937184361577277,
+      "reciprocity_pct": 95.88643017048389
+    },
+    {
+      "brokers": [
+        "CC",
+        "YP"
+      ],
+      "print_count": 442,
+      "raw_qty": 165215,
+      "qty_share_pct": 1.6836936640573823,
+      "reciprocity_pct": 97.63762370244832
+    },
+    {
+      "brokers": [
+        "MG",
+        "YP"
+      ],
+      "print_count": 334,
+      "raw_qty": 143073,
+      "qty_share_pct": 1.4580462040231326,
+      "reciprocity_pct": 99.98392429039721
+    },
+    {
+      "brokers": [
+        "BQ",
+        "CP"
+      ],
+      "print_count": 275,
+      "raw_qty": 139478,
+      "qty_share_pct": 1.4214098288617594,
+      "reciprocity_pct": 95.10173647456946
+    },
+    {
+      "brokers": [
+        "YP",
+        "YP"
+      ],
+      "print_count": 384,
+      "raw_qty": 127584,
+      "qty_share_pct": 1.30019896761854,
+      "reciprocity_pct": null
+    },
+    {
+      "brokers": [
+        "PD",
+        "XL"
+      ],
+      "print_count": 726,
+      "raw_qty": 126147,
+      "qty_share_pct": 1.285554608478931,
+      "reciprocity_pct": 92.84247742712867
+    },
+    {
+      "brokers": [
+        "AK",
+        "CP"
+      ],
+      "print_count": 61,
+      "raw_qty": 123436,
+      "qty_share_pct": 1.2579270109650276,
+      "reciprocity_pct": 87.99863897080267
+    },
+    {
+      "brokers": [
+        "BQ",
+        "XL"
+      ],
+      "print_count": 691,
+      "raw_qty": 123033,
+      "qty_share_pct": 1.2538200682139753,
+      "reciprocity_pct": 94.65265416595547
+    },
+    {
+      "brokers": [
+        "XC",
+        "XL"
+      ],
+      "print_count": 949,
+      "raw_qty": 109075,
+      "qty_share_pct": 1.1115751378934053,
+      "reciprocity_pct": 96.16135686454274
+    }
+  ],
+  "broker_flows": [
+    {
+      "broker": "CP",
+      "buy_raw_qty": 3402088,
+      "sell_raw_qty": 3289793,
+      "buy_count": 5213,
+      "sell_count": 5888,
+      "net_raw_qty": 112295
+    },
+    {
+      "broker": "AK",
+      "buy_raw_qty": 297227,
+      "sell_raw_qty": 247835,
+      "buy_count": 650,
+      "sell_count": 830,
+      "net_raw_qty": 49392
+    },
+    {
+      "broker": "CC",
+      "buy_raw_qty": 722189,
+      "sell_raw_qty": 674289,
+      "buy_count": 1960,
+      "sell_count": 1912,
+      "net_raw_qty": 47900
+    },
+    {
+      "broker": "AO",
+      "buy_raw_qty": 30194,
+      "sell_raw_qty": 5224,
+      "buy_count": 39,
+      "sell_count": 19,
+      "net_raw_qty": 24970
+    },
+    {
+      "broker": "LG",
+      "buy_raw_qty": 13788,
+      "sell_raw_qty": 1676,
+      "buy_count": 40,
+      "sell_count": 14,
+      "net_raw_qty": 12112
+    },
+    {
+      "broker": "AT",
+      "buy_raw_qty": 25598,
+      "sell_raw_qty": 13759,
+      "buy_count": 115,
+      "sell_count": 76,
+      "net_raw_qty": 11839
+    },
+    {
+      "broker": "MG",
+      "buy_raw_qty": 753719,
+      "sell_raw_qty": 745663,
+      "buy_count": 1345,
+      "sell_count": 1855,
+      "net_raw_qty": 8056
+    },
+    {
+      "broker": "DH",
+      "buy_raw_qty": 22582,
+      "sell_raw_qty": 16028,
+      "buy_count": 64,
+      "sell_count": 16,
+      "net_raw_qty": 6554
+    },
+    {
+      "broker": "PD",
+      "buy_raw_qty": 269379,
+      "sell_raw_qty": 264334,
+      "buy_count": 1077,
+      "sell_count": 877,
+      "net_raw_qty": 5045
+    },
+    {
+      "broker": "RB",
+      "buy_raw_qty": 5001,
+      "sell_raw_qty": 0,
+      "buy_count": 12,
+      "sell_count": 0,
+      "net_raw_qty": 5001
+    },
+    {
+      "broker": "BQ",
+      "buy_raw_qty": 236768,
+      "sell_raw_qty": 232208,
+      "buy_count": 880,
+      "sell_count": 851,
+      "net_raw_qty": 4560
+    },
+    {
+      "broker": "BK",
+      "buy_raw_qty": 3731,
+      "sell_raw_qty": 0,
+      "buy_count": 33,
+      "sell_count": 0,
+      "net_raw_qty": 3731
+    },
+    {
+      "broker": "HD",
+      "buy_raw_qty": 9370,
+      "sell_raw_qty": 7320,
+      "buy_count": 18,
+      "sell_count": 21,
+      "net_raw_qty": 2050
+    },
+    {
+      "broker": "ZR",
+      "buy_raw_qty": 2000,
+      "sell_raw_qty": 0,
+      "buy_count": 2,
+      "sell_count": 0,
+      "net_raw_qty": 2000
+    },
+    {
+      "broker": "YB",
+      "buy_raw_qty": 76872,
+      "sell_raw_qty": 75139,
+      "buy_count": 270,
+      "sell_count": 279,
+      "net_raw_qty": 1733
+    },
+    {
+      "broker": "QA",
+      "buy_raw_qty": 2166,
+      "sell_raw_qty": 611,
+      "buy_count": 28,
+      "sell_count": 15,
+      "net_raw_qty": 1555
+    },
+    {
+      "broker": "MU",
+      "buy_raw_qty": 4630,
+      "sell_raw_qty": 3560,
+      "buy_count": 12,
+      "sell_count": 10,
+      "net_raw_qty": 1070
+    },
+    {
+      "broker": "GR",
+      "buy_raw_qty": 44428,
+      "sell_raw_qty": 43524,
+      "buy_count": 86,
+      "sell_count": 97,
+      "net_raw_qty": 904
+    },
+    {
+      "broker": "RO",
+      "buy_raw_qty": 1258,
+      "sell_raw_qty": 625,
+      "buy_count": 12,
+      "sell_count": 7,
+      "net_raw_qty": 633
+    },
+    {
+      "broker": "AD",
+      "buy_raw_qty": 1000,
+      "sell_raw_qty": 500,
+      "buy_count": 11,
+      "sell_count": 4,
+      "net_raw_qty": 500
+    },
+    {
+      "broker": "PC",
+      "buy_raw_qty": 579,
+      "sell_raw_qty": 100,
+      "buy_count": 3,
+      "sell_count": 1,
+      "net_raw_qty": 479
+    },
+    {
+      "broker": "AI",
+      "buy_raw_qty": 10015,
+      "sell_raw_qty": 9640,
+      "buy_count": 13,
+      "sell_count": 45,
+      "net_raw_qty": 375
+    },
+    {
+      "broker": "AG",
+      "buy_raw_qty": 3488,
+      "sell_raw_qty": 3285,
+      "buy_count": 24,
+      "sell_count": 133,
+      "net_raw_qty": 203
+    },
+    {
+      "broker": "KI",
+      "buy_raw_qty": 1815,
+      "sell_raw_qty": 1629,
+      "buy_count": 25,
+      "sell_count": 25,
+      "net_raw_qty": 186
+    },
+    {
+      "broker": "DX",
+      "buy_raw_qty": 200,
+      "sell_raw_qty": 105,
+      "buy_count": 3,
+      "sell_count": 2,
+      "net_raw_qty": 95
+    },
+    {
+      "broker": "FZ",
+      "buy_raw_qty": 138,
+      "sell_raw_qty": 104,
+      "buy_count": 2,
+      "sell_count": 2,
+      "net_raw_qty": 34
+    },
+    {
+      "broker": "IN",
+      "buy_raw_qty": 9000,
+      "sell_raw_qty": 9000,
+      "buy_count": 10,
+      "sell_count": 20,
+      "net_raw_qty": 0
+    },
+    {
+      "broker": "ES",
+      "buy_raw_qty": 100,
+      "sell_raw_qty": 100,
+      "buy_count": 2,
+      "sell_count": 2,
+      "net_raw_qty": 0
+    },
+    {
+      "broker": "OK",
+      "buy_raw_qty": 400,
+      "sell_raw_qty": 400,
+      "buy_count": 4,
+      "sell_count": 1,
+      "net_raw_qty": 0
+    },
+    {
+      "broker": "FS",
+      "buy_raw_qty": 10,
+      "sell_raw_qty": 10,
+      "buy_count": 1,
+      "sell_count": 1,
+      "net_raw_qty": 0
+    },
+    {
+      "broker": "SF",
+      "buy_raw_qty": 899,
+      "sell_raw_qty": 1049,
+      "buy_count": 1,
+      "sell_count": 3,
+      "net_raw_qty": -150
+    },
+    {
+      "broker": "PG",
+      "buy_raw_qty": 275,
+      "sell_raw_qty": 624,
+      "buy_count": 3,
+      "sell_count": 6,
+      "net_raw_qty": -349
+    },
+    {
+      "broker": "TP",
+      "buy_raw_qty": 1316,
+      "sell_raw_qty": 1692,
+      "buy_count": 8,
+      "sell_count": 18,
+      "net_raw_qty": -376
+    },
+    {
+      "broker": "LS",
+      "buy_raw_qty": 636,
+      "sell_raw_qty": 1236,
+      "buy_count": 4,
+      "sell_count": 7,
+      "net_raw_qty": -600
+    },
+    {
+      "broker": "OD",
+      "buy_raw_qty": 21779,
+      "sell_raw_qty": 22500,
+      "buy_count": 188,
+      "sell_count": 146,
+      "net_raw_qty": -721
+    },
+    {
+      "broker": "BR",
+      "buy_raw_qty": 7530,
+      "sell_raw_qty": 8300,
+      "buy_count": 31,
+      "sell_count": 46,
+      "net_raw_qty": -770
+    },
+    {
+      "broker": "AZ",
+      "buy_raw_qty": 2882,
+      "sell_raw_qty": 4030,
+      "buy_count": 27,
+      "sell_count": 30,
+      "net_raw_qty": -1148
+    },
+    {
+      "broker": "IF",
+      "buy_raw_qty": 3415,
+      "sell_raw_qty": 5969,
+      "buy_count": 28,
+      "sell_count": 27,
+      "net_raw_qty": -2554
+    },
+    {
+      "broker": "HP",
+      "buy_raw_qty": 369,
+      "sell_raw_qty": 4665,
+      "buy_count": 6,
+      "sell_count": 26,
+      "net_raw_qty": -4296
+    },
+    {
+      "broker": "KK",
+      "buy_raw_qty": 95306,
+      "sell_raw_qty": 100795,
+      "buy_count": 347,
+      "sell_count": 662,
+      "net_raw_qty": -5489
+    },
+    {
+      "broker": "SQ",
+      "buy_raw_qty": 70304,
+      "sell_raw_qty": 76842,
+      "buy_count": 201,
+      "sell_count": 170,
+      "net_raw_qty": -6538
+    },
+    {
+      "broker": "ZP",
+      "buy_raw_qty": 1398,
+      "sell_raw_qty": 9428,
+      "buy_count": 16,
+      "sell_count": 25,
+      "net_raw_qty": -8030
+    },
+    {
+      "broker": "YJ",
+      "buy_raw_qty": 2300,
+      "sell_raw_qty": 10850,
+      "buy_count": 3,
+      "sell_count": 14,
+      "net_raw_qty": -8550
+    },
+    {
+      "broker": "IU",
+      "buy_raw_qty": 1510,
+      "sell_raw_qty": 12470,
+      "buy_count": 16,
+      "sell_count": 12,
+      "net_raw_qty": -10960
+    },
+    {
+      "broker": "YU",
+      "buy_raw_qty": 16516,
+      "sell_raw_qty": 28616,
+      "buy_count": 57,
+      "sell_count": 127,
+      "net_raw_qty": -12100
+    },
+    {
+      "broker": "EP",
+      "buy_raw_qty": 23595,
+      "sell_raw_qty": 36517,
+      "buy_count": 114,
+      "sell_count": 100,
+      "net_raw_qty": -12922
+    },
+    {
+      "broker": "DR",
+      "buy_raw_qty": 10153,
+      "sell_raw_qty": 24649,
+      "buy_count": 50,
+      "sell_count": 63,
+      "net_raw_qty": -14496
+    },
+    {
+      "broker": "NI",
+      "buy_raw_qty": 51500,
+      "sell_raw_qty": 66488,
+      "buy_count": 299,
+      "sell_count": 246,
+      "net_raw_qty": -14988
+    },
+    {
+      "broker": "XL",
+      "buy_raw_qty": 2219927,
+      "sell_raw_qty": 2235478,
+      "buy_count": 12580,
+      "sell_count": 11141,
+      "net_raw_qty": -15551
+    },
+    {
+      "broker": "YP",
+      "buy_raw_qty": 1026873,
+      "sell_raw_qty": 1059744,
+      "buy_count": 3445,
+      "sell_count": 3487,
+      "net_raw_qty": -32871
+    },
+    {
+      "broker": "XA",
+      "buy_raw_qty": 89218,
+      "sell_raw_qty": 125539,
+      "buy_count": 193,
+      "sell_count": 269,
+      "net_raw_qty": -36321
+    },
+    {
+      "broker": "XC",
+      "buy_raw_qty": 215218,
+      "sell_raw_qty": 328710,
+      "buy_count": 1538,
+      "sell_count": 1481,
+      "net_raw_qty": -113492
+    }
+  ],
+  "peak_price_times": {
+    "price": 116,
+    "first": "15:26:12",
+    "last": "15:26:12",
+    "print_count": 2
+  },
+  "low_price_times": {
+    "price": 76,
+    "first": "15:47:52",
+    "last": "16:14:58",
+    "print_count": 1570
+  },
+  "illustrative_group_activity": [
+    {
+      "brokers": [
+        "CP",
+        "XL",
+        "YP"
+      ],
+      "distinct_broker_internal_print_count": 9305,
+      "share_of_session_qty_pct": 26.247338639951767
+    },
+    {
+      "brokers": [
+        "CC",
+        "CP",
+        "XL"
+      ],
+      "distinct_broker_internal_print_count": 7611,
+      "share_of_session_qty_pct": 23.170097135820164
+    },
+    {
+      "brokers": [
+        "CP",
+        "MG",
+        "XL"
+      ],
+      "distinct_broker_internal_print_count": 7270,
+      "share_of_session_qty_pct": 22.427290807826466
+    },
+    {
+      "brokers": [
+        "CC",
+        "CP",
+        "XL",
+        "YP"
+      ],
+      "distinct_broker_internal_print_count": 11933,
+      "share_of_session_qty_pct": 36.759675162229335
+    }
+  ],
+  "illustrative_group_note": "Chosen combinations include the most active brokers. These are descriptive full-session internal-quantity shares, not exhaustive search results, coordination evidence or ownership claims. Same-broker prints excluded; all uploaded RG quantity remains denominator."
+}

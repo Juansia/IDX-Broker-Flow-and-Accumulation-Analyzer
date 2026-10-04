@@ -1,0 +1,2535 @@
+{
+  "ticker": "BSDE",
+  "quantity_unit": "lot",
+  "dates_source": "filenames",
+  "method": "Existing tape_analyzer via app.run_tape; default pair/group thresholds unchanged",
+  "sessions": [
+    {
+      "date": "2026-09-28",
+      "source": "Running trade 28 09 2026.txt",
+      "trade_count": 1619,
+      "invalid_rows": 0,
+      "rg_count": 1619,
+      "boards": {
+        "RG": 1619
+      },
+      "total_lot": 187206,
+      "same_broker_rg_count": 140,
+      "same_broker_rg_volume_pct": 3.7034069420851896,
+      "same_broker_by_code": [
+        {
+          "broker": "AZ",
+          "count": 2,
+          "lot": 2702
+        },
+        {
+          "broker": "XL",
+          "count": 91,
+          "lot": 2146
+        },
+        {
+          "broker": "CC",
+          "count": 7,
+          "lot": 651
+        },
+        {
+          "broker": "OD",
+          "count": 4,
+          "lot": 514
+        },
+        {
+          "broker": "YP",
+          "count": 12,
+          "lot": 318
+        },
+        {
+          "broker": "KK",
+          "count": 1,
+          "lot": 200
+        },
+        {
+          "broker": "XC",
+          "count": 5,
+          "lot": 199
+        },
+        {
+          "broker": "PD",
+          "count": 9,
+          "lot": 156
+        },
+        {
+          "broker": "ZP",
+          "count": 1,
+          "lot": 25
+        },
+        {
+          "broker": "AK",
+          "count": 8,
+          "lot": 22
+        }
+      ],
+      "first_time": "08:58:00",
+      "last_time": "16:14:23",
+      "first_timestamp_vwap": 560.0,
+      "last_timestamp_vwap": 550.0,
+      "first_to_last_vwap_change_pct": -1.7857142857142905,
+      "pair_diagnostics": {
+        "evaluated_windows": 964,
+        "eligible_windows": 0,
+        "windows_not_eligible": 964,
+        "failed_gate_counts": {
+          "alternation_pct": 927,
+          "comparable_direction_transitions": 803,
+          "distinct_timestamps": 803,
+          "pair_prints": 887,
+          "pair_vwap_rise_pct": 945,
+          "prints_a_buys_b": 746,
+          "prints_b_buys_a": 709,
+          "reciprocity_pct": 953,
+          "uploaded_rg_volume_share_pct": 828
+        },
+        "returned_pairs": 20,
+        "eligible_pairs": 0
+      },
+      "group_diagnostics": {
+        "eligible_windows": 0,
+        "windows_not_eligible": 7084,
+        "eligible_groups": 0,
+        "returned_groups": 20,
+        "failed_gate_counts": {
+          "distinct_timestamps": 3170,
+          "group_balance_pct": 6938,
+          "group_timestamp_vwap_rise_pct": 6401,
+          "internal_prints": 5945,
+          "material_edge_strong_connectivity": 7063,
+          "minimum_member_balance_pct": 7072,
+          "minimum_member_buy_prints": 6973,
+          "minimum_member_participation_pct": 6435,
+          "minimum_member_sell_prints": 7067,
+          "positive_matched_rg_timestamp_vwap_change": 6319,
+          "uploaded_rg_volume_share_pct": 4762
+        }
+      },
+      "pair_coverage": {
+        "input_count": 1619,
+        "rg_count": 1619,
+        "rg_volume_shares": 18720600,
+        "eligible_pair_count": 1479,
+        "eligible_pair_volume_shares": 18027300,
+        "known_pair_volume_pct": 96.296593,
+        "both_brokers_known_count": 1619,
+        "both_brokers_known_volume_pct": 100.0,
+        "excluded_non_rg_count": 0,
+        "evaluated_windows": 964,
+        "distinct_pairs": 201
+      },
+      "group_coverage": {
+        "input_count": 1619,
+        "rg_count": 1619,
+        "rg_volume_shares": 18720600,
+        "eligible_broker_count": 44,
+        "pool_brokers": [
+          "XL",
+          "DH",
+          "CC",
+          "YP",
+          "AK",
+          "PD",
+          "BK",
+          "AZ",
+          "XC",
+          "KK",
+          "OD",
+          "NI"
+        ],
+        "excluded_broker_count": 32,
+        "pool_internal_rg_volume_shares": 14213200,
+        "excluded_broker_touched_rg_volume_shares": 3816600,
+        "discovered_groups": 525,
+        "searched_groups": 100,
+        "groups_omitted_by_cap": 425,
+        "evaluated_windows": 7084,
+        "search_exhaustive_within_uploaded_tape": false
+      },
+      "eligible_pairs": [],
+      "eligible_groups": [],
+      "top_pair_observation": {
+        "broker_a": "KK",
+        "broker_b": "XL",
+        "window": {
+          "start": "08:56:45",
+          "end": "09:01:45",
+          "start_seconds": 32205.0,
+          "end_seconds": 32505.0,
+          "first_pair_timestamp": "08:58:00"
+        },
+        "count": 6,
+        "distinct_timestamps": 5,
+        "count_a_buys_b": 2,
+        "count_b_buys_a": 4,
+        "volume_a_buys_b": 100100,
+        "volume_b_buys_a": 52000,
+        "volume_shares": 152100,
+        "volume_share_pct": 24.355484,
+        "reciprocity_pct": 68.376068,
+        "price_change_pct": 0.892857,
+        "alternation_pct": 25.0,
+        "dependence_a_pct": 99.86868,
+        "dependence_b_pct": 29.199462,
+        "comparable_direction_transitions": 4,
+        "ambiguous_direction_timestamps": 0,
+        "timestamp_coverage": {
+          "distinct": 5,
+          "span_seconds": 225.0,
+          "mixed_price_timestamps": 0,
+          "ambiguous_direction_timestamps": 0,
+          "comparable_direction_transitions": 4
+        },
+        "score": 53.461944,
+        "score_coverage_pct": 100,
+        "label": "Does not meet review gates",
+        "components": [
+          {
+            "name": "reciprocity",
+            "weight": 20,
+            "score": 68.376068,
+            "available": true,
+            "evidence": "100 × (1 − |A-buys-B volume − B-buys-A volume| / pair volume). Balanced quantities, not identified ownership."
+          },
+          {
+            "name": "dominance",
+            "weight": 20,
+            "score": 24.355484,
+            "available": true,
+            "evidence": "Pair volume / all uploaded RG volume in the inclusive rolling window × 100; unknown-counterparty and same-broker RG prints stay in the denominator."
+          },
+          {
+            "name": "dependence",
+            "weight": 15,
+            "score": 29.199462,
+            "available": true,
+            "evidence": "The smaller of each broker's pair-volume share of all uploaded RG volume involving that broker; each print counted once per broker."
+          },
+          {
+            "name": "alternation",
+            "weight": 15,
+            "score": 25.0,
+            "available": true,
+            "evidence": "Alternating directions / comparable adjacent distinct-timestamp bucket transitions × 100. Mixed-direction buckets make adjacent transitions unavailable."
+          },
+          {
+            "name": "price",
+            "weight": 30,
+            "score": 89.285714,
+            "available": true,
+            "evidence": "First-to-last pair timestamp-bucket VWAP change; score = clamp(change_pct / 0.5 × 50, 0, 100). Unavailable with fewer than two timestamps."
+          }
+        ],
+        "eligibility": {
+          "eligible": false,
+          "checks": [
+            {
+              "name": "pair_prints",
+              "passed": true,
+              "actual": 6,
+              "required": 6
+            },
+            {
+              "name": "distinct_timestamps",
+              "passed": true,
+              "actual": 5,
+              "required": 3
+            },
+            {
+              "name": "prints_a_buys_b",
+              "passed": true,
+              "actual": 2,
+              "required": 2
+            },
+            {
+              "name": "prints_b_buys_a",
+              "passed": true,
+              "actual": 4,
+              "required": 2
+            },
+            {
+              "name": "pair_vwap_rise_pct",
+              "passed": true,
+              "actual": 0.892857,
+              "required": 0.5
+            },
+            {
+              "name": "reciprocity_pct",
+              "passed": true,
+              "actual": 68.376068,
+              "required": 60.0
+            },
+            {
+              "name": "uploaded_rg_volume_share_pct",
+              "passed": false,
+              "actual": 24.355484,
+              "required": 25.0
+            },
+            {
+              "name": "comparable_direction_transitions",
+              "passed": true,
+              "actual": 4,
+              "required": 2
+            },
+            {
+              "name": "alternation_pct",
+              "passed": false,
+              "actual": 25.0,
+              "required": 50.0
+            }
+          ]
+        },
+        "evidence": [
+          "6 actual pair prints across 5 distinct timestamps: 2 A-buys-B and 4 B-buys-A.",
+          "The pair represents 24.36% of uploaded RG volume in this window; two-way quantity balance is 68.38%.",
+          "1 alternating direction transitions among 4 comparable adjacent timestamp transitions.",
+          "Pair timestamp-bucket VWAP changed 0.893% between 08:58:00 and 09:01:45.",
+          "Other or unattributed RG timestamp-bucket VWAP changed 0.000% over its own observed endpoints within the same window; this is context, not an estimated counterfactual."
+        ],
+        "limitations": [
+          "Broker identities represent intermediaries, not accounts or beneficial owners; reciprocal prints do not establish common ownership, wash trading, crossing, or intent.",
+          "Pair VWAP change is price association, not proof the pair raised the market price; aggressor side and order-book impact are unknown.",
+          "An uploaded tape may be incomplete. Opening/closing auction prints, normal liquidity provision, and order slicing may create similar patterns.",
+          "Comparison prints include RG records with unknown counterparties, which may belong to this pair; the nonpair fields mean other or unattributed activity.",
+          "One strongest window per pair is shown. Overlapping windows and different pairs are not independent events and their volumes must not be added."
+        ],
+        "context": {
+          "rg_volume_shares": 624500,
+          "comparison_population": "Other or unattributed RG prints; unknown counterparties may include this pair.",
+          "nonpair_volume_shares": 472400,
+          "nonpair_volume_share_pct": 75.644516,
+          "pair_vwap": 561.709402,
+          "nonpair_vwap": 560.002117,
+          "nonpair_price_change_pct": 0.0,
+          "nonpair_distinct_timestamps": 7,
+          "nonpair_first_timestamp": "08:58:00",
+          "nonpair_last_timestamp": "09:01:38"
+        }
+      },
+      "top_group_observation": {
+        "brokers": [
+          "AK",
+          "XL",
+          "YP"
+        ],
+        "group_size": 3,
+        "window": {
+          "start": "09:16:16",
+          "end": "09:21:16",
+          "start_seconds": 33376.0,
+          "end_seconds": 33676.0,
+          "first_group_timestamp": "09:17:14"
+        },
+        "count": 25,
+        "distinct_timestamps": 7,
+        "volume_shares": 150900,
+        "volume_share_pct": 11.130781,
+        "balance_pct": 92.776673,
+        "price_change_pct": 0.0,
+        "rg_price_change_pct": 0.0,
+        "member_min_participation_pct": 62.027833,
+        "member_min_balance_pct": 89.17577,
+        "dependence_min_pct": 26.668321,
+        "proper_subgroup_max_volume_share_pct": 37.972167,
+        "strongly_connected": true,
+        "material_edge_count": 4,
+        "member_flows": [
+          {
+            "broker": "AK",
+            "buy_volume_shares": 44900,
+            "sell_volume_shares": 55800,
+            "net_volume_shares": -10900,
+            "buy_count": 2,
+            "sell_count": 14,
+            "participation_pct": 66.732936,
+            "balance_pct": 89.17577,
+            "dependence_pct": 39.552239
+          },
+          {
+            "broker": "XL",
+            "buy_volume_shares": 56100,
+            "sell_volume_shares": 51400,
+            "net_volume_shares": 4700,
+            "buy_count": 17,
+            "sell_count": 6,
+            "participation_pct": 71.239231,
+            "balance_pct": 95.627907,
+            "dependence_pct": 26.668321
+          },
+          {
+            "broker": "YP",
+            "buy_volume_shares": 49900,
+            "sell_volume_shares": 43700,
+            "net_volume_shares": 6200,
+            "buy_count": 6,
+            "sell_count": 5,
+            "participation_pct": 62.027833,
+            "balance_pct": 93.376068,
+            "dependence_pct": 77.419355
+          }
+        ],
+        "score": 38.738001,
+        "score_coverage_pct": 100,
+        "label": "Group activity without rising-price evidence",
+        "components": [
+          {
+            "name": "balance",
+            "weight": 20,
+            "score": 92.776673,
+            "available": true,
+            "evidence": "100 × (1 − sum of absolute individual broker internal net shares / (2 × internal volume)); the signed sum of group net shares is never used as evidence."
+          },
+          {
+            "name": "dominance",
+            "weight": 20,
+            "score": 11.130781,
+            "available": true,
+            "evidence": "Internal group volume / all uploaded RG volume in the inclusive rolling window × 100, including unknown-counterparty and same-broker context."
+          },
+          {
+            "name": "dependence",
+            "weight": 15,
+            "score": 26.668321,
+            "available": true,
+            "evidence": "Minimum across members of internal involvement / all uploaded RG volume involving that broker × 100; a same-broker print counts once in the external denominator."
+          },
+          {
+            "name": "participation",
+            "weight": 15,
+            "score": 93.04175,
+            "available": true,
+            "evidence": "Minimum member involvement percentage / (200 / group size) × 100, capped at 100. Every internal trade involves two group members."
+          },
+          {
+            "name": "price",
+            "weight": 30,
+            "score": 0.0,
+            "available": true,
+            "evidence": "First-to-last group timestamp-bucket VWAP change; clamp(change_pct / 0.5 × 50, 0, 100). A separate gate requires positive all-RG VWAP change at those identical endpoint timestamps."
+          }
+        ],
+        "eligibility": {
+          "eligible": false,
+          "checks": [
+            {
+              "name": "internal_prints",
+              "actual": 25,
+              "required": 9,
+              "passed": true
+            },
+            {
+              "name": "distinct_timestamps",
+              "actual": 7,
+              "required": 3,
+              "passed": true
+            },
+            {
+              "name": "minimum_member_buy_prints",
+              "actual": 2,
+              "required": 2,
+              "passed": true
+            },
+            {
+              "name": "minimum_member_sell_prints",
+              "actual": 5,
+              "required": 2,
+              "passed": true
+            },
+            {
+              "name": "minimum_member_participation_pct",
+              "actual": 62.027833,
+              "required": 20.0,
+              "passed": true
+            },
+            {
+              "name": "minimum_member_balance_pct",
+              "actual": 89.17577,
+              "required": 40.0,
+              "passed": true
+            },
+            {
+              "name": "group_balance_pct",
+              "actual": 92.776673,
+              "required": 60.0,
+              "passed": true
+            },
+            {
+              "name": "material_edge_strong_connectivity",
+              "actual": true,
+              "required": true,
+              "passed": true
+            },
+            {
+              "name": "uploaded_rg_volume_share_pct",
+              "actual": 11.130781,
+              "required": 25.0,
+              "passed": false
+            },
+            {
+              "name": "group_timestamp_vwap_rise_pct",
+              "actual": 0.0,
+              "required": 0.5,
+              "passed": false
+            },
+            {
+              "name": "positive_matched_rg_timestamp_vwap_change",
+              "actual": false,
+              "required": true,
+              "passed": false
+            }
+          ]
+        },
+        "context": {
+          "rg_volume_shares": 1355700,
+          "other_or_unattributed_volume_shares": 1204800,
+          "group_vwap": 558.363154,
+          "other_or_unattributed_vwap": 559.072875,
+          "rg_first_timestamp_vwap": 560.0,
+          "rg_last_timestamp_vwap": 560.0
+        },
+        "timestamp_coverage": {
+          "distinct": 7,
+          "span_seconds": 242.0,
+          "mixed_price_timestamps": 1
+        },
+        "evidence": [
+          "25 observed internal prints across 7 distinct timestamps, covering 11.13% of uploaded RG window volume.",
+          "Individual-net-based group balance is 92.78%; minimum member two-way balance is 89.18%.",
+          "Minimum member involvement is 62.03% of internal volume; the strongest proper subgroup accounts for 37.97%.",
+          "4 directed edges each represent at least 1.0% of internal volume; strongly connected: True.",
+          "Group timestamp-bucket VWAP changed 0.000%; all uploaded RG VWAP changed 0.000% at the exact same endpoint timestamps."
+        ],
+        "limitations": [
+          "Broker codes identify intermediaries, not beneficial owners or accounts. A connected circulation pattern does not establish collusion, wash trading, crossing, intent, or price causation.",
+          "Timestamp-bucket VWAP may change because trade composition changes; matching RG price movement confirms association only. Within-timestamp order and aggressor side are unknown.",
+          "Group and pair windows overlap and are not independent. Their counts, volumes, or scores must not be summed as independent evidence.",
+          "Top-broker and candidate-group caps can omit localized low-volume groups; inspect search coverage. No result rules out coordinated one-way trading or other patterns.",
+          "1 internal timestamps contain multiple prices; no within-time price path is inferred."
+        ]
+      },
+      "header_adjustment": null
+    },
+    {
+      "date": "2026-09-29",
+      "source": "Running trade 29 09 2026.txt",
+      "trade_count": 1746,
+      "invalid_rows": 0,
+      "rg_count": 1746,
+      "boards": {
+        "RG": 1746
+      },
+      "total_lot": 257007,
+      "same_broker_rg_count": 148,
+      "same_broker_rg_volume_pct": 6.806040302404215,
+      "same_broker_by_code": [
+        {
+          "broker": "SS",
+          "count": 4,
+          "lot": 10041
+        },
+        {
+          "broker": "AK",
+          "count": 62,
+          "lot": 2962
+        },
+        {
+          "broker": "CC",
+          "count": 42,
+          "lot": 2753
+        },
+        {
+          "broker": "XL",
+          "count": 27,
+          "lot": 1299
+        },
+        {
+          "broker": "YP",
+          "count": 6,
+          "lot": 224
+        },
+        {
+          "broker": "PD",
+          "count": 1,
+          "lot": 100
+        },
+        {
+          "broker": "BK",
+          "count": 3,
+          "lot": 56
+        },
+        {
+          "broker": "ZP",
+          "count": 1,
+          "lot": 30
+        },
+        {
+          "broker": "KK",
+          "count": 1,
+          "lot": 25
+        },
+        {
+          "broker": "XC",
+          "count": 1,
+          "lot": 2
+        }
+      ],
+      "first_time": "08:58:00",
+      "last_time": "16:11:29",
+      "first_timestamp_vwap": 550.0,
+      "last_timestamp_vwap": 545.0,
+      "first_to_last_vwap_change_pct": -0.9090909090909038,
+      "pair_diagnostics": {
+        "evaluated_windows": 1045,
+        "eligible_windows": 0,
+        "windows_not_eligible": 1045,
+        "failed_gate_counts": {
+          "alternation_pct": 1011,
+          "comparable_direction_transitions": 781,
+          "distinct_timestamps": 781,
+          "pair_prints": 920,
+          "pair_vwap_rise_pct": 1019,
+          "prints_a_buys_b": 871,
+          "prints_b_buys_a": 644,
+          "reciprocity_pct": 1034,
+          "uploaded_rg_volume_share_pct": 877
+        },
+        "returned_pairs": 20,
+        "eligible_pairs": 0
+      },
+      "group_diagnostics": {
+        "eligible_windows": 0,
+        "windows_not_eligible": 5781,
+        "eligible_groups": 0,
+        "returned_groups": 20,
+        "failed_gate_counts": {
+          "distinct_timestamps": 2576,
+          "group_balance_pct": 5733,
+          "group_timestamp_vwap_rise_pct": 5301,
+          "internal_prints": 4798,
+          "material_edge_strong_connectivity": 5766,
+          "minimum_member_balance_pct": 5780,
+          "minimum_member_buy_prints": 5764,
+          "minimum_member_participation_pct": 5436,
+          "minimum_member_sell_prints": 5744,
+          "positive_matched_rg_timestamp_vwap_change": 5164,
+          "uploaded_rg_volume_share_pct": 3836
+        }
+      },
+      "pair_coverage": {
+        "input_count": 1746,
+        "rg_count": 1746,
+        "rg_volume_shares": 25700700,
+        "eligible_pair_count": 1598,
+        "eligible_pair_volume_shares": 23951500,
+        "known_pair_volume_pct": 93.19396,
+        "both_brokers_known_count": 1746,
+        "both_brokers_known_volume_pct": 100.0,
+        "excluded_non_rg_count": 0,
+        "evaluated_windows": 1045,
+        "distinct_pairs": 216
+      },
+      "group_coverage": {
+        "input_count": 1746,
+        "rg_count": 1746,
+        "rg_volume_shares": 25700700,
+        "eligible_broker_count": 40,
+        "pool_brokers": [
+          "CC",
+          "DH",
+          "AK",
+          "AZ",
+          "XL",
+          "BK",
+          "YP",
+          "SQ",
+          "SS",
+          "KK",
+          "ZP",
+          "YU"
+        ],
+        "excluded_broker_count": 28,
+        "pool_internal_rg_volume_shares": 19432500,
+        "excluded_broker_touched_rg_volume_shares": 4529200,
+        "discovered_groups": 439,
+        "searched_groups": 100,
+        "groups_omitted_by_cap": 339,
+        "evaluated_windows": 5781,
+        "search_exhaustive_within_uploaded_tape": false
+      },
+      "eligible_pairs": [],
+      "eligible_groups": [],
+      "top_pair_observation": {
+        "broker_a": "SS",
+        "broker_b": "XL",
+        "window": {
+          "start": "10:40:19",
+          "end": "10:45:19",
+          "start_seconds": 38419.0,
+          "end_seconds": 38719.0,
+          "first_pair_timestamp": "10:40:31"
+        },
+        "count": 9,
+        "distinct_timestamps": 6,
+        "count_a_buys_b": 4,
+        "count_b_buys_a": 5,
+        "volume_a_buys_b": 14300,
+        "volume_b_buys_a": 83300,
+        "volume_shares": 97600,
+        "volume_share_pct": 4.125803,
+        "reciprocity_pct": 29.303279,
+        "price_change_pct": 0.900901,
+        "alternation_pct": 40.0,
+        "dependence_a_pct": 4.449916,
+        "dependence_b_pct": 38.394965,
+        "comparable_direction_transitions": 5,
+        "ambiguous_direction_timestamps": 0,
+        "timestamp_coverage": {
+          "distinct": 6,
+          "span_seconds": 288.0,
+          "mixed_price_timestamps": 0,
+          "ambiguous_direction_timestamps": 0,
+          "comparable_direction_transitions": 5
+        },
+        "score": 40.380331,
+        "score_coverage_pct": 100,
+        "label": "Does not meet review gates",
+        "components": [
+          {
+            "name": "reciprocity",
+            "weight": 20,
+            "score": 29.303279,
+            "available": true,
+            "evidence": "100 × (1 − |A-buys-B volume − B-buys-A volume| / pair volume). Balanced quantities, not identified ownership."
+          },
+          {
+            "name": "dominance",
+            "weight": 20,
+            "score": 4.125803,
+            "available": true,
+            "evidence": "Pair volume / all uploaded RG volume in the inclusive rolling window × 100; unknown-counterparty and same-broker RG prints stay in the denominator."
+          },
+          {
+            "name": "dependence",
+            "weight": 15,
+            "score": 4.449916,
+            "available": true,
+            "evidence": "The smaller of each broker's pair-volume share of all uploaded RG volume involving that broker; each print counted once per broker."
+          },
+          {
+            "name": "alternation",
+            "weight": 15,
+            "score": 40.0,
+            "available": true,
+            "evidence": "Alternating directions / comparable adjacent distinct-timestamp bucket transitions × 100. Mixed-direction buckets make adjacent transitions unavailable."
+          },
+          {
+            "name": "price",
+            "weight": 30,
+            "score": 90.09009,
+            "available": true,
+            "evidence": "First-to-last pair timestamp-bucket VWAP change; score = clamp(change_pct / 0.5 × 50, 0, 100). Unavailable with fewer than two timestamps."
+          }
+        ],
+        "eligibility": {
+          "eligible": false,
+          "checks": [
+            {
+              "name": "pair_prints",
+              "passed": true,
+              "actual": 9,
+              "required": 6
+            },
+            {
+              "name": "distinct_timestamps",
+              "passed": true,
+              "actual": 6,
+              "required": 3
+            },
+            {
+              "name": "prints_a_buys_b",
+              "passed": true,
+              "actual": 4,
+              "required": 2
+            },
+            {
+              "name": "prints_b_buys_a",
+              "passed": true,
+              "actual": 5,
+              "required": 2
+            },
+            {
+              "name": "pair_vwap_rise_pct",
+              "passed": true,
+              "actual": 0.900901,
+              "required": 0.5
+            },
+            {
+              "name": "reciprocity_pct",
+              "passed": false,
+              "actual": 29.303279,
+              "required": 60.0
+            },
+            {
+              "name": "uploaded_rg_volume_share_pct",
+              "passed": false,
+              "actual": 4.125803,
+              "required": 25.0
+            },
+            {
+              "name": "comparable_direction_transitions",
+              "passed": true,
+              "actual": 5,
+              "required": 2
+            },
+            {
+              "name": "alternation_pct",
+              "passed": false,
+              "actual": 40.0,
+              "required": 50.0
+            }
+          ]
+        },
+        "evidence": [
+          "9 actual pair prints across 6 distinct timestamps: 4 A-buys-B and 5 B-buys-A.",
+          "The pair represents 4.13% of uploaded RG volume in this window; two-way quantity balance is 29.30%.",
+          "2 alternating direction transitions among 5 comparable adjacent timestamp transitions.",
+          "Pair timestamp-bucket VWAP changed 0.901% between 10:40:31 and 10:45:19.",
+          "Other or unattributed RG timestamp-bucket VWAP changed 0.901% over its own observed endpoints within the same window; this is context, not an estimated counterfactual."
+        ],
+        "limitations": [
+          "Broker identities represent intermediaries, not accounts or beneficial owners; reciprocal prints do not establish common ownership, wash trading, crossing, or intent.",
+          "Pair VWAP change is price association, not proof the pair raised the market price; aggressor side and order-book impact are unknown.",
+          "An uploaded tape may be incomplete. Opening/closing auction prints, normal liquidity provision, and order slicing may create similar patterns.",
+          "Comparison prints include RG records with unknown counterparties, which may belong to this pair; the nonpair fields mean other or unattributed activity.",
+          "One strongest window per pair is shown. Overlapping windows and different pairs are not independent events and their volumes must not be added."
+        ],
+        "context": {
+          "rg_volume_shares": 2365600,
+          "comparison_population": "Other or unattributed RG prints; unknown counterparties may include this pair.",
+          "nonpair_volume_shares": 2268000,
+          "nonpair_volume_share_pct": 95.874197,
+          "pair_vwap": 555.901639,
+          "nonpair_vwap": 557.173721,
+          "nonpair_price_change_pct": 0.900901,
+          "nonpair_distinct_timestamps": 11,
+          "nonpair_first_timestamp": "10:41:10",
+          "nonpair_last_timestamp": "10:44:44"
+        }
+      },
+      "top_group_observation": {
+        "brokers": [
+          "AK",
+          "KK",
+          "XL"
+        ],
+        "group_size": 3,
+        "window": {
+          "start": "08:57:50",
+          "end": "09:02:50",
+          "start_seconds": 32270.0,
+          "end_seconds": 32570.0,
+          "first_group_timestamp": "08:58:00"
+        },
+        "count": 11,
+        "distinct_timestamps": 5,
+        "volume_shares": 163900,
+        "volume_share_pct": 55.465313,
+        "balance_pct": 40.695546,
+        "price_change_pct": 0.909091,
+        "rg_price_change_pct": 0.909091,
+        "member_min_participation_pct": 37.461867,
+        "member_min_balance_pct": 9.833024,
+        "dependence_min_pct": 54.384411,
+        "proper_subgroup_max_volume_share_pct": 62.538133,
+        "strongly_connected": true,
+        "material_edge_count": 4,
+        "member_flows": [
+          {
+            "broker": "AK",
+            "buy_volume_shares": 116100,
+            "sell_volume_shares": 42500,
+            "net_volume_shares": 73600,
+            "buy_count": 3,
+            "sell_count": 5,
+            "participation_pct": 96.766321,
+            "balance_pct": 53.593947,
+            "dependence_pct": 81.752577
+          },
+          {
+            "broker": "KK",
+            "buy_volume_shares": 5300,
+            "sell_volume_shares": 102500,
+            "net_volume_shares": -97200,
+            "buy_count": 3,
+            "sell_count": 2,
+            "participation_pct": 65.771812,
+            "balance_pct": 9.833024,
+            "dependence_pct": 92.136752
+          },
+          {
+            "broker": "XL",
+            "buy_volume_shares": 42500,
+            "sell_volume_shares": 18900,
+            "net_volume_shares": 23600,
+            "buy_count": 5,
+            "sell_count": 4,
+            "participation_pct": 37.461867,
+            "balance_pct": 61.563518,
+            "dependence_pct": 54.384411
+          }
+        ],
+        "score": 63.091481,
+        "score_coverage_pct": 100,
+        "label": "Does not meet group review gates",
+        "components": [
+          {
+            "name": "balance",
+            "weight": 20,
+            "score": 40.695546,
+            "available": true,
+            "evidence": "100 × (1 − sum of absolute individual broker internal net shares / (2 × internal volume)); the signed sum of group net shares is never used as evidence."
+          },
+          {
+            "name": "dominance",
+            "weight": 20,
+            "score": 55.465313,
+            "available": true,
+            "evidence": "Internal group volume / all uploaded RG volume in the inclusive rolling window × 100, including unknown-counterparty and same-broker context."
+          },
+          {
+            "name": "dependence",
+            "weight": 15,
+            "score": 54.384411,
+            "available": true,
+            "evidence": "Minimum across members of internal involvement / all uploaded RG volume involving that broker × 100; a same-broker print counts once in the external denominator."
+          },
+          {
+            "name": "participation",
+            "weight": 15,
+            "score": 56.1928,
+            "available": true,
+            "evidence": "Minimum member involvement percentage / (200 / group size) × 100, capped at 100. Every internal trade involves two group members."
+          },
+          {
+            "name": "price",
+            "weight": 30,
+            "score": 90.909091,
+            "available": true,
+            "evidence": "First-to-last group timestamp-bucket VWAP change; clamp(change_pct / 0.5 × 50, 0, 100). A separate gate requires positive all-RG VWAP change at those identical endpoint timestamps."
+          }
+        ],
+        "eligibility": {
+          "eligible": false,
+          "checks": [
+            {
+              "name": "internal_prints",
+              "actual": 11,
+              "required": 9,
+              "passed": true
+            },
+            {
+              "name": "distinct_timestamps",
+              "actual": 5,
+              "required": 3,
+              "passed": true
+            },
+            {
+              "name": "minimum_member_buy_prints",
+              "actual": 3,
+              "required": 2,
+              "passed": true
+            },
+            {
+              "name": "minimum_member_sell_prints",
+              "actual": 2,
+              "required": 2,
+              "passed": true
+            },
+            {
+              "name": "minimum_member_participation_pct",
+              "actual": 37.461867,
+              "required": 20.0,
+              "passed": true
+            },
+            {
+              "name": "minimum_member_balance_pct",
+              "actual": 9.833024,
+              "required": 40.0,
+              "passed": false
+            },
+            {
+              "name": "group_balance_pct",
+              "actual": 40.695546,
+              "required": 60.0,
+              "passed": false
+            },
+            {
+              "name": "material_edge_strong_connectivity",
+              "actual": true,
+              "required": true,
+              "passed": true
+            },
+            {
+              "name": "uploaded_rg_volume_share_pct",
+              "actual": 55.465313,
+              "required": 25.0,
+              "passed": true
+            },
+            {
+              "name": "group_timestamp_vwap_rise_pct",
+              "actual": 0.909091,
+              "required": 0.5,
+              "passed": true
+            },
+            {
+              "name": "positive_matched_rg_timestamp_vwap_change",
+              "actual": true,
+              "required": true,
+              "passed": true
+            }
+          ]
+        },
+        "context": {
+          "rg_volume_shares": 295500,
+          "other_or_unattributed_volume_shares": 131600,
+          "group_vwap": 554.734594,
+          "other_or_unattributed_vwap": 552.43921,
+          "rg_first_timestamp_vwap": 550.0,
+          "rg_last_timestamp_vwap": 555.0
+        },
+        "timestamp_coverage": {
+          "distinct": 5,
+          "span_seconds": 290.0,
+          "mixed_price_timestamps": 0
+        },
+        "evidence": [
+          "11 observed internal prints across 5 distinct timestamps, covering 55.47% of uploaded RG window volume.",
+          "Individual-net-based group balance is 40.70%; minimum member two-way balance is 9.83%.",
+          "Minimum member involvement is 37.46% of internal volume; the strongest proper subgroup accounts for 62.54%.",
+          "4 directed edges each represent at least 1.0% of internal volume; strongly connected: True.",
+          "Group timestamp-bucket VWAP changed 0.909%; all uploaded RG VWAP changed 0.909% at the exact same endpoint timestamps."
+        ],
+        "limitations": [
+          "Broker codes identify intermediaries, not beneficial owners or accounts. A connected circulation pattern does not establish collusion, wash trading, crossing, intent, or price causation.",
+          "Timestamp-bucket VWAP may change because trade composition changes; matching RG price movement confirms association only. Within-timestamp order and aggressor side are unknown.",
+          "Group and pair windows overlap and are not independent. Their counts, volumes, or scores must not be summed as independent evidence.",
+          "Top-broker and candidate-group caps can omit localized low-volume groups; inspect search coverage. No result rules out coordinated one-way trading or other patterns."
+        ]
+      },
+      "header_adjustment": "Removed 1 blank interior header field(s); every data row has 10 columns. Trade cells were not shifted or removed."
+    },
+    {
+      "date": "2026-09-30",
+      "source": "Running trade 30 09 2026.txt",
+      "trade_count": 1555,
+      "invalid_rows": 0,
+      "rg_count": 1555,
+      "boards": {
+        "RG": 1555
+      },
+      "total_lot": 244883,
+      "same_broker_rg_count": 106,
+      "same_broker_rg_volume_pct": 2.4709759354467233,
+      "same_broker_by_code": [
+        {
+          "broker": "AK",
+          "count": 3,
+          "lot": 1995
+        },
+        {
+          "broker": "NI",
+          "count": 31,
+          "lot": 1794
+        },
+        {
+          "broker": "CC",
+          "count": 14,
+          "lot": 579
+        },
+        {
+          "broker": "XL",
+          "count": 28,
+          "lot": 540
+        },
+        {
+          "broker": "YP",
+          "count": 1,
+          "lot": 500
+        },
+        {
+          "broker": "DH",
+          "count": 1,
+          "lot": 338
+        },
+        {
+          "broker": "ZP",
+          "count": 5,
+          "lot": 227
+        },
+        {
+          "broker": "YU",
+          "count": 22,
+          "lot": 77
+        },
+        {
+          "broker": "PD",
+          "count": 1,
+          "lot": 1
+        }
+      ],
+      "first_time": "08:58:00",
+      "last_time": "16:02:44",
+      "first_timestamp_vwap": 550.0,
+      "last_timestamp_vwap": 550.0,
+      "first_to_last_vwap_change_pct": 0.0,
+      "pair_diagnostics": {
+        "evaluated_windows": 978,
+        "eligible_windows": 0,
+        "windows_not_eligible": 978,
+        "failed_gate_counts": {
+          "alternation_pct": 938,
+          "comparable_direction_transitions": 807,
+          "distinct_timestamps": 807,
+          "pair_prints": 912,
+          "pair_vwap_rise_pct": 955,
+          "prints_a_buys_b": 804,
+          "prints_b_buys_a": 685,
+          "reciprocity_pct": 963,
+          "uploaded_rg_volume_share_pct": 850
+        },
+        "returned_pairs": 20,
+        "eligible_pairs": 0
+      },
+      "group_diagnostics": {
+        "eligible_windows": 0,
+        "windows_not_eligible": 3924,
+        "eligible_groups": 0,
+        "returned_groups": 20,
+        "failed_gate_counts": {
+          "distinct_timestamps": 2458,
+          "group_balance_pct": 3841,
+          "group_timestamp_vwap_rise_pct": 3700,
+          "internal_prints": 3636,
+          "material_edge_strong_connectivity": 3923,
+          "minimum_member_balance_pct": 3924,
+          "minimum_member_buy_prints": 3922,
+          "minimum_member_participation_pct": 3695,
+          "minimum_member_sell_prints": 3905,
+          "positive_matched_rg_timestamp_vwap_change": 3625,
+          "uploaded_rg_volume_share_pct": 2651
+        }
+      },
+      "pair_coverage": {
+        "input_count": 1555,
+        "rg_count": 1555,
+        "rg_volume_shares": 24488300,
+        "eligible_pair_count": 1449,
+        "eligible_pair_volume_shares": 23883200,
+        "known_pair_volume_pct": 97.529024,
+        "both_brokers_known_count": 1555,
+        "both_brokers_known_volume_pct": 100.0,
+        "excluded_non_rg_count": 0,
+        "evaluated_windows": 978,
+        "distinct_pairs": 210
+      },
+      "group_coverage": {
+        "input_count": 1555,
+        "rg_count": 1555,
+        "rg_volume_shares": 24488300,
+        "eligible_broker_count": 42,
+        "pool_brokers": [
+          "CC",
+          "AK",
+          "AZ",
+          "NI",
+          "YU",
+          "DH",
+          "XL",
+          "KK",
+          "YP",
+          "ZP",
+          "DX",
+          "OD"
+        ],
+        "excluded_broker_count": 30,
+        "pool_internal_rg_volume_shares": 19635800,
+        "excluded_broker_touched_rg_volume_shares": 4247500,
+        "discovered_groups": 389,
+        "searched_groups": 100,
+        "groups_omitted_by_cap": 289,
+        "evaluated_windows": 3924,
+        "search_exhaustive_within_uploaded_tape": false
+      },
+      "eligible_pairs": [],
+      "eligible_groups": [],
+      "top_pair_observation": {
+        "broker_a": "AK",
+        "broker_b": "XL",
+        "window": {
+          "start": "10:31:30",
+          "end": "10:36:30",
+          "start_seconds": 37890.0,
+          "end_seconds": 38190.0,
+          "first_pair_timestamp": "10:33:34"
+        },
+        "count": 5,
+        "distinct_timestamps": 3,
+        "count_a_buys_b": 3,
+        "count_b_buys_a": 2,
+        "volume_a_buys_b": 10400,
+        "volume_b_buys_a": 9200,
+        "volume_shares": 19600,
+        "volume_share_pct": 5.702648,
+        "reciprocity_pct": 93.877551,
+        "price_change_pct": 0.917431,
+        "alternation_pct": 50.0,
+        "dependence_a_pct": 7.509579,
+        "dependence_b_pct": 22.711472,
+        "comparable_direction_transitions": 2,
+        "ambiguous_direction_timestamps": 0,
+        "timestamp_coverage": {
+          "distinct": 3,
+          "span_seconds": 176.0,
+          "mixed_price_timestamps": 0,
+          "ambiguous_direction_timestamps": 0,
+          "comparable_direction_transitions": 2
+        },
+        "score": 56.065412,
+        "score_coverage_pct": 100,
+        "label": "Does not meet review gates",
+        "components": [
+          {
+            "name": "reciprocity",
+            "weight": 20,
+            "score": 93.877551,
+            "available": true,
+            "evidence": "100 × (1 − |A-buys-B volume − B-buys-A volume| / pair volume). Balanced quantities, not identified ownership."
+          },
+          {
+            "name": "dominance",
+            "weight": 20,
+            "score": 5.702648,
+            "available": true,
+            "evidence": "Pair volume / all uploaded RG volume in the inclusive rolling window × 100; unknown-counterparty and same-broker RG prints stay in the denominator."
+          },
+          {
+            "name": "dependence",
+            "weight": 15,
+            "score": 7.509579,
+            "available": true,
+            "evidence": "The smaller of each broker's pair-volume share of all uploaded RG volume involving that broker; each print counted once per broker."
+          },
+          {
+            "name": "alternation",
+            "weight": 15,
+            "score": 50.0,
+            "available": true,
+            "evidence": "Alternating directions / comparable adjacent distinct-timestamp bucket transitions × 100. Mixed-direction buckets make adjacent transitions unavailable."
+          },
+          {
+            "name": "price",
+            "weight": 30,
+            "score": 91.743119,
+            "available": true,
+            "evidence": "First-to-last pair timestamp-bucket VWAP change; score = clamp(change_pct / 0.5 × 50, 0, 100). Unavailable with fewer than two timestamps."
+          }
+        ],
+        "eligibility": {
+          "eligible": false,
+          "checks": [
+            {
+              "name": "pair_prints",
+              "passed": false,
+              "actual": 5,
+              "required": 6
+            },
+            {
+              "name": "distinct_timestamps",
+              "passed": true,
+              "actual": 3,
+              "required": 3
+            },
+            {
+              "name": "prints_a_buys_b",
+              "passed": true,
+              "actual": 3,
+              "required": 2
+            },
+            {
+              "name": "prints_b_buys_a",
+              "passed": true,
+              "actual": 2,
+              "required": 2
+            },
+            {
+              "name": "pair_vwap_rise_pct",
+              "passed": true,
+              "actual": 0.917431,
+              "required": 0.5
+            },
+            {
+              "name": "reciprocity_pct",
+              "passed": true,
+              "actual": 93.877551,
+              "required": 60.0
+            },
+            {
+              "name": "uploaded_rg_volume_share_pct",
+              "passed": false,
+              "actual": 5.702648,
+              "required": 25.0
+            },
+            {
+              "name": "comparable_direction_transitions",
+              "passed": true,
+              "actual": 2,
+              "required": 2
+            },
+            {
+              "name": "alternation_pct",
+              "passed": true,
+              "actual": 50.0,
+              "required": 50.0
+            }
+          ]
+        },
+        "evidence": [
+          "5 actual pair prints across 3 distinct timestamps: 3 A-buys-B and 2 B-buys-A.",
+          "The pair represents 5.70% of uploaded RG volume in this window; two-way quantity balance is 93.88%.",
+          "1 alternating direction transitions among 2 comparable adjacent timestamp transitions.",
+          "Pair timestamp-bucket VWAP changed 0.917% between 10:33:34 and 10:36:30.",
+          "Other or unattributed RG timestamp-bucket VWAP changed 0.000% over its own observed endpoints within the same window; this is context, not an estimated counterfactual."
+        ],
+        "limitations": [
+          "Broker identities represent intermediaries, not accounts or beneficial owners; reciprocal prints do not establish common ownership, wash trading, crossing, or intent.",
+          "Pair VWAP change is price association, not proof the pair raised the market price; aggressor side and order-book impact are unknown.",
+          "An uploaded tape may be incomplete. Opening/closing auction prints, normal liquidity provision, and order slicing may create similar patterns.",
+          "Comparison prints include RG records with unknown counterparties, which may belong to this pair; the nonpair fields mean other or unattributed activity.",
+          "One strongest window per pair is shown. Overlapping windows and different pairs are not independent events and their volumes must not be added."
+        ],
+        "context": {
+          "rg_volume_shares": 343700,
+          "comparison_population": "Other or unattributed RG prints; unknown counterparties may include this pair.",
+          "nonpair_volume_shares": 324100,
+          "nonpair_volume_share_pct": 94.297352,
+          "pair_vwap": 547.346939,
+          "nonpair_vwap": 544.862697,
+          "nonpair_price_change_pct": 0.0,
+          "nonpair_distinct_timestamps": 13,
+          "nonpair_first_timestamp": "10:31:42",
+          "nonpair_last_timestamp": "10:34:40"
+        }
+      },
+      "top_group_observation": {
+        "brokers": [
+          "KK",
+          "NI",
+          "YU"
+        ],
+        "group_size": 3,
+        "window": {
+          "start": "15:03:59",
+          "end": "15:08:59",
+          "start_seconds": 54239.0,
+          "end_seconds": 54539.0,
+          "first_group_timestamp": "15:04:25"
+        },
+        "count": 20,
+        "distinct_timestamps": 3,
+        "volume_shares": 677900,
+        "volume_share_pct": 60.065568,
+        "balance_pct": 34.606874,
+        "price_change_pct": 0.909091,
+        "rg_price_change_pct": 0.909091,
+        "member_min_participation_pct": 48.089689,
+        "member_min_balance_pct": 0.0,
+        "dependence_min_pct": 59.970478,
+        "proper_subgroup_max_volume_share_pct": 51.910311,
+        "strongly_connected": false,
+        "material_edge_count": 3,
+        "member_flows": [
+          {
+            "broker": "KK",
+            "buy_volume_shares": 232800,
+            "sell_volume_shares": 350100,
+            "net_volume_shares": -117300,
+            "buy_count": 14,
+            "sell_count": 2,
+            "participation_pct": 85.986134,
+            "balance_pct": 79.87648,
+            "dependence_pct": 82.029271
+          },
+          {
+            "broker": "NI",
+            "buy_volume_shares": 0,
+            "sell_volume_shares": 326000,
+            "net_volume_shares": -326000,
+            "buy_count": 0,
+            "sell_count": 6,
+            "participation_pct": 48.089689,
+            "balance_pct": 0.0,
+            "dependence_pct": 93.409742
+          },
+          {
+            "broker": "YU",
+            "buy_volume_shares": 445100,
+            "sell_volume_shares": 1800,
+            "net_volume_shares": 443300,
+            "buy_count": 6,
+            "sell_count": 12,
+            "participation_pct": 65.924178,
+            "balance_pct": 0.805549,
+            "dependence_pct": 59.970478
+          }
+        ],
+        "score": 66.022967,
+        "score_coverage_pct": 100,
+        "label": "Does not meet group review gates",
+        "components": [
+          {
+            "name": "balance",
+            "weight": 20,
+            "score": 34.606874,
+            "available": true,
+            "evidence": "100 × (1 − sum of absolute individual broker internal net shares / (2 × internal volume)); the signed sum of group net shares is never used as evidence."
+          },
+          {
+            "name": "dominance",
+            "weight": 20,
+            "score": 60.065568,
+            "available": true,
+            "evidence": "Internal group volume / all uploaded RG volume in the inclusive rolling window × 100, including unknown-counterparty and same-broker context."
+          },
+          {
+            "name": "dependence",
+            "weight": 15,
+            "score": 59.970478,
+            "available": true,
+            "evidence": "Minimum across members of internal involvement / all uploaded RG volume involving that broker × 100; a same-broker print counts once in the external denominator."
+          },
+          {
+            "name": "participation",
+            "weight": 15,
+            "score": 72.134533,
+            "available": true,
+            "evidence": "Minimum member involvement percentage / (200 / group size) × 100, capped at 100. Every internal trade involves two group members."
+          },
+          {
+            "name": "price",
+            "weight": 30,
+            "score": 90.909091,
+            "available": true,
+            "evidence": "First-to-last group timestamp-bucket VWAP change; clamp(change_pct / 0.5 × 50, 0, 100). A separate gate requires positive all-RG VWAP change at those identical endpoint timestamps."
+          }
+        ],
+        "eligibility": {
+          "eligible": false,
+          "checks": [
+            {
+              "name": "internal_prints",
+              "actual": 20,
+              "required": 9,
+              "passed": true
+            },
+            {
+              "name": "distinct_timestamps",
+              "actual": 3,
+              "required": 3,
+              "passed": true
+            },
+            {
+              "name": "minimum_member_buy_prints",
+              "actual": 0,
+              "required": 2,
+              "passed": false
+            },
+            {
+              "name": "minimum_member_sell_prints",
+              "actual": 2,
+              "required": 2,
+              "passed": true
+            },
+            {
+              "name": "minimum_member_participation_pct",
+              "actual": 48.089689,
+              "required": 20.0,
+              "passed": true
+            },
+            {
+              "name": "minimum_member_balance_pct",
+              "actual": 0.0,
+              "required": 40.0,
+              "passed": false
+            },
+            {
+              "name": "group_balance_pct",
+              "actual": 34.606874,
+              "required": 60.0,
+              "passed": false
+            },
+            {
+              "name": "material_edge_strong_connectivity",
+              "actual": false,
+              "required": true,
+              "passed": false
+            },
+            {
+              "name": "uploaded_rg_volume_share_pct",
+              "actual": 60.065568,
+              "required": 25.0,
+              "passed": true
+            },
+            {
+              "name": "group_timestamp_vwap_rise_pct",
+              "actual": 0.909091,
+              "required": 0.5,
+              "passed": true
+            },
+            {
+              "name": "positive_matched_rg_timestamp_vwap_change",
+              "actual": true,
+              "required": true,
+              "passed": true
+            }
+          ]
+        },
+        "context": {
+          "rg_volume_shares": 1128600,
+          "other_or_unattributed_volume_shares": 450700,
+          "group_vwap": 553.282933,
+          "other_or_unattributed_vwap": 553.550033,
+          "rg_first_timestamp_vwap": 550.0,
+          "rg_last_timestamp_vwap": 555.0
+        },
+        "timestamp_coverage": {
+          "distinct": 3,
+          "span_seconds": 274.0,
+          "mixed_price_timestamps": 0
+        },
+        "evidence": [
+          "20 observed internal prints across 3 distinct timestamps, covering 60.07% of uploaded RG window volume.",
+          "Individual-net-based group balance is 34.61%; minimum member two-way balance is 0.00%.",
+          "Minimum member involvement is 48.09% of internal volume; the strongest proper subgroup accounts for 51.91%.",
+          "3 directed edges each represent at least 1.0% of internal volume; strongly connected: False.",
+          "Group timestamp-bucket VWAP changed 0.909%; all uploaded RG VWAP changed 0.909% at the exact same endpoint timestamps."
+        ],
+        "limitations": [
+          "Broker codes identify intermediaries, not beneficial owners or accounts. A connected circulation pattern does not establish collusion, wash trading, crossing, intent, or price causation.",
+          "Timestamp-bucket VWAP may change because trade composition changes; matching RG price movement confirms association only. Within-timestamp order and aggressor side are unknown.",
+          "Group and pair windows overlap and are not independent. Their counts, volumes, or scores must not be summed as independent evidence.",
+          "Top-broker and candidate-group caps can omit localized low-volume groups; inspect search coverage. No result rules out coordinated one-way trading or other patterns."
+        ]
+      },
+      "header_adjustment": "Removed 1 blank interior header field(s); every data row has 10 columns. Trade cells were not shifted or removed."
+    },
+    {
+      "date": "2026-10-01",
+      "source": "Running trade 1 10 2026.txt",
+      "trade_count": 1734,
+      "invalid_rows": 0,
+      "rg_count": 1734,
+      "boards": {
+        "RG": 1734
+      },
+      "total_lot": 219525,
+      "same_broker_rg_count": 201,
+      "same_broker_rg_volume_pct": 8.915157726910374,
+      "same_broker_by_code": [
+        {
+          "broker": "XL",
+          "count": 148,
+          "lot": 15423
+        },
+        {
+          "broker": "AK",
+          "count": 18,
+          "lot": 1692
+        },
+        {
+          "broker": "CC",
+          "count": 11,
+          "lot": 1455
+        },
+        {
+          "broker": "ZP",
+          "count": 15,
+          "lot": 497
+        },
+        {
+          "broker": "KK",
+          "count": 2,
+          "lot": 436
+        },
+        {
+          "broker": "PD",
+          "count": 1,
+          "lot": 25
+        },
+        {
+          "broker": "XC",
+          "count": 3,
+          "lot": 18
+        },
+        {
+          "broker": "YB",
+          "count": 1,
+          "lot": 18
+        },
+        {
+          "broker": "OD",
+          "count": 1,
+          "lot": 5
+        },
+        {
+          "broker": "NI",
+          "count": 1,
+          "lot": 2
+        }
+      ],
+      "first_time": "08:58:00",
+      "last_time": "16:11:43",
+      "first_timestamp_vwap": 550.0,
+      "last_timestamp_vwap": 540.0,
+      "first_to_last_vwap_change_pct": -1.8181818181818188,
+      "pair_diagnostics": {
+        "evaluated_windows": 1130,
+        "eligible_windows": 0,
+        "windows_not_eligible": 1130,
+        "failed_gate_counts": {
+          "alternation_pct": 1089,
+          "comparable_direction_transitions": 707,
+          "distinct_timestamps": 705,
+          "pair_prints": 895,
+          "pair_vwap_rise_pct": 1120,
+          "prints_a_buys_b": 754,
+          "prints_b_buys_a": 785,
+          "reciprocity_pct": 1115,
+          "uploaded_rg_volume_share_pct": 918
+        },
+        "returned_pairs": 20,
+        "eligible_pairs": 0
+      },
+      "group_diagnostics": {
+        "eligible_windows": 0,
+        "windows_not_eligible": 6582,
+        "eligible_groups": 0,
+        "returned_groups": 20,
+        "failed_gate_counts": {
+          "distinct_timestamps": 2891,
+          "group_balance_pct": 6436,
+          "group_timestamp_vwap_rise_pct": 6171,
+          "internal_prints": 5246,
+          "material_edge_strong_connectivity": 6562,
+          "minimum_member_balance_pct": 6571,
+          "minimum_member_buy_prints": 6435,
+          "minimum_member_participation_pct": 6065,
+          "minimum_member_sell_prints": 6543,
+          "positive_matched_rg_timestamp_vwap_change": 6019,
+          "uploaded_rg_volume_share_pct": 4566
+        }
+      },
+      "pair_coverage": {
+        "input_count": 1734,
+        "rg_count": 1734,
+        "rg_volume_shares": 21952500,
+        "eligible_pair_count": 1533,
+        "eligible_pair_volume_shares": 19995400,
+        "known_pair_volume_pct": 91.084842,
+        "both_brokers_known_count": 1734,
+        "both_brokers_known_volume_pct": 100.0,
+        "excluded_non_rg_count": 0,
+        "evaluated_windows": 1130,
+        "distinct_pairs": 191
+      },
+      "group_coverage": {
+        "input_count": 1734,
+        "rg_count": 1734,
+        "rg_volume_shares": 21952500,
+        "eligible_broker_count": 39,
+        "pool_brokers": [
+          "XL",
+          "DH",
+          "CC",
+          "YP",
+          "LG",
+          "AK",
+          "KK",
+          "ZP",
+          "YU",
+          "SQ",
+          "XC",
+          "DX"
+        ],
+        "excluded_broker_count": 27,
+        "pool_internal_rg_volume_shares": 15894100,
+        "excluded_broker_touched_rg_volume_shares": 4106300,
+        "discovered_groups": 426,
+        "searched_groups": 100,
+        "groups_omitted_by_cap": 326,
+        "evaluated_windows": 6582,
+        "search_exhaustive_within_uploaded_tape": false
+      },
+      "eligible_pairs": [],
+      "eligible_groups": [],
+      "top_pair_observation": {
+        "broker_a": "PD",
+        "broker_b": "XL",
+        "window": {
+          "start": "15:40:50",
+          "end": "15:45:50",
+          "start_seconds": 56450.0,
+          "end_seconds": 56750.0,
+          "first_pair_timestamp": "15:41:23"
+        },
+        "count": 6,
+        "distinct_timestamps": 6,
+        "count_a_buys_b": 4,
+        "count_b_buys_a": 2,
+        "volume_a_buys_b": 12400,
+        "volume_b_buys_a": 400,
+        "volume_shares": 12800,
+        "volume_share_pct": 9.136331,
+        "reciprocity_pct": 6.25,
+        "price_change_pct": 0.925926,
+        "alternation_pct": 60.0,
+        "dependence_a_pct": 69.189189,
+        "dependence_b_pct": 46.545455,
+        "comparable_direction_transitions": 5,
+        "ambiguous_direction_timestamps": 0,
+        "timestamp_coverage": {
+          "distinct": 6,
+          "span_seconds": 267.0,
+          "mixed_price_timestamps": 0,
+          "ambiguous_direction_timestamps": 0,
+          "comparable_direction_transitions": 5
+        },
+        "score": 46.836862,
+        "score_coverage_pct": 100,
+        "label": "Does not meet review gates",
+        "components": [
+          {
+            "name": "reciprocity",
+            "weight": 20,
+            "score": 6.25,
+            "available": true,
+            "evidence": "100 × (1 − |A-buys-B volume − B-buys-A volume| / pair volume). Balanced quantities, not identified ownership."
+          },
+          {
+            "name": "dominance",
+            "weight": 20,
+            "score": 9.136331,
+            "available": true,
+            "evidence": "Pair volume / all uploaded RG volume in the inclusive rolling window × 100; unknown-counterparty and same-broker RG prints stay in the denominator."
+          },
+          {
+            "name": "dependence",
+            "weight": 15,
+            "score": 46.545455,
+            "available": true,
+            "evidence": "The smaller of each broker's pair-volume share of all uploaded RG volume involving that broker; each print counted once per broker."
+          },
+          {
+            "name": "alternation",
+            "weight": 15,
+            "score": 60.0,
+            "available": true,
+            "evidence": "Alternating directions / comparable adjacent distinct-timestamp bucket transitions × 100. Mixed-direction buckets make adjacent transitions unavailable."
+          },
+          {
+            "name": "price",
+            "weight": 30,
+            "score": 92.592593,
+            "available": true,
+            "evidence": "First-to-last pair timestamp-bucket VWAP change; score = clamp(change_pct / 0.5 × 50, 0, 100). Unavailable with fewer than two timestamps."
+          }
+        ],
+        "eligibility": {
+          "eligible": false,
+          "checks": [
+            {
+              "name": "pair_prints",
+              "passed": true,
+              "actual": 6,
+              "required": 6
+            },
+            {
+              "name": "distinct_timestamps",
+              "passed": true,
+              "actual": 6,
+              "required": 3
+            },
+            {
+              "name": "prints_a_buys_b",
+              "passed": true,
+              "actual": 4,
+              "required": 2
+            },
+            {
+              "name": "prints_b_buys_a",
+              "passed": true,
+              "actual": 2,
+              "required": 2
+            },
+            {
+              "name": "pair_vwap_rise_pct",
+              "passed": true,
+              "actual": 0.925926,
+              "required": 0.5
+            },
+            {
+              "name": "reciprocity_pct",
+              "passed": false,
+              "actual": 6.25,
+              "required": 60.0
+            },
+            {
+              "name": "uploaded_rg_volume_share_pct",
+              "passed": false,
+              "actual": 9.136331,
+              "required": 25.0
+            },
+            {
+              "name": "comparable_direction_transitions",
+              "passed": true,
+              "actual": 5,
+              "required": 2
+            },
+            {
+              "name": "alternation_pct",
+              "passed": true,
+              "actual": 60.0,
+              "required": 50.0
+            }
+          ]
+        },
+        "evidence": [
+          "6 actual pair prints across 6 distinct timestamps: 4 A-buys-B and 2 B-buys-A.",
+          "The pair represents 9.14% of uploaded RG volume in this window; two-way quantity balance is 6.25%.",
+          "3 alternating direction transitions among 5 comparable adjacent timestamp transitions.",
+          "Pair timestamp-bucket VWAP changed 0.926% between 15:41:23 and 15:45:50.",
+          "Other or unattributed RG timestamp-bucket VWAP changed 0.935% over its own observed endpoints within the same window; this is context, not an estimated counterfactual."
+        ],
+        "limitations": [
+          "Broker identities represent intermediaries, not accounts or beneficial owners; reciprocal prints do not establish common ownership, wash trading, crossing, or intent.",
+          "Pair VWAP change is price association, not proof the pair raised the market price; aggressor side and order-book impact are unknown.",
+          "An uploaded tape may be incomplete. Opening/closing auction prints, normal liquidity provision, and order slicing may create similar patterns.",
+          "Comparison prints include RG records with unknown counterparties, which may belong to this pair; the nonpair fields mean other or unattributed activity.",
+          "One strongest window per pair is shown. Overlapping windows and different pairs are not independent events and their volumes must not be added."
+        ],
+        "context": {
+          "rg_volume_shares": 140100,
+          "comparison_population": "Other or unattributed RG prints; unknown counterparties may include this pair.",
+          "nonpair_volume_shares": 127300,
+          "nonpair_volume_share_pct": 90.863669,
+          "pair_vwap": 544.84375,
+          "nonpair_vwap": 537.918303,
+          "nonpair_price_change_pct": 0.934579,
+          "nonpair_distinct_timestamps": 29,
+          "nonpair_first_timestamp": "15:40:53",
+          "nonpair_last_timestamp": "15:45:18"
+        }
+      },
+      "top_group_observation": {
+        "brokers": [
+          "XC",
+          "XL",
+          "YP"
+        ],
+        "group_size": 3,
+        "window": {
+          "start": "10:33:22",
+          "end": "10:38:22",
+          "start_seconds": 38002.0,
+          "end_seconds": 38302.0,
+          "first_group_timestamp": "10:34:31"
+        },
+        "count": 20,
+        "distinct_timestamps": 3,
+        "volume_shares": 35600,
+        "volume_share_pct": 2.383663,
+        "balance_pct": 72.191011,
+        "price_change_pct": 0.934579,
+        "rg_price_change_pct": 0.934463,
+        "member_min_participation_pct": 40.168539,
+        "member_min_balance_pct": 44.755245,
+        "dependence_min_pct": 2.417493,
+        "proper_subgroup_max_volume_share_pct": 59.831461,
+        "strongly_connected": true,
+        "material_edge_count": 4,
+        "member_flows": [
+          {
+            "broker": "XC",
+            "buy_volume_shares": 11100,
+            "sell_volume_shares": 3200,
+            "net_volume_shares": 7900,
+            "buy_count": 7,
+            "sell_count": 3,
+            "participation_pct": 40.168539,
+            "balance_pct": 44.755245,
+            "dependence_pct": 100.0
+          },
+          {
+            "broker": "XL",
+            "buy_volume_shares": 18800,
+            "sell_volume_shares": 16800,
+            "net_volume_shares": 2000,
+            "buy_count": 5,
+            "sell_count": 15,
+            "participation_pct": 100.0,
+            "balance_pct": 94.382022,
+            "dependence_pct": 2.417493
+          },
+          {
+            "broker": "YP",
+            "buy_volume_shares": 5700,
+            "sell_volume_shares": 15600,
+            "net_volume_shares": -9900,
+            "buy_count": 8,
+            "sell_count": 2,
+            "participation_pct": 59.831461,
+            "balance_pct": 53.521127,
+            "dependence_pct": 100.0
+          }
+        ],
+        "score": 52.352863,
+        "score_coverage_pct": 100,
+        "label": "Does not meet group review gates",
+        "components": [
+          {
+            "name": "balance",
+            "weight": 20,
+            "score": 72.191011,
+            "available": true,
+            "evidence": "100 × (1 − sum of absolute individual broker internal net shares / (2 × internal volume)); the signed sum of group net shares is never used as evidence."
+          },
+          {
+            "name": "dominance",
+            "weight": 20,
+            "score": 2.383663,
+            "available": true,
+            "evidence": "Internal group volume / all uploaded RG volume in the inclusive rolling window × 100, including unknown-counterparty and same-broker context."
+          },
+          {
+            "name": "dependence",
+            "weight": 15,
+            "score": 2.417493,
+            "available": true,
+            "evidence": "Minimum across members of internal involvement / all uploaded RG volume involving that broker × 100; a same-broker print counts once in the external denominator."
+          },
+          {
+            "name": "participation",
+            "weight": 15,
+            "score": 60.252809,
+            "available": true,
+            "evidence": "Minimum member involvement percentage / (200 / group size) × 100, capped at 100. Every internal trade involves two group members."
+          },
+          {
+            "name": "price",
+            "weight": 30,
+            "score": 93.457944,
+            "available": true,
+            "evidence": "First-to-last group timestamp-bucket VWAP change; clamp(change_pct / 0.5 × 50, 0, 100). A separate gate requires positive all-RG VWAP change at those identical endpoint timestamps."
+          }
+        ],
+        "eligibility": {
+          "eligible": false,
+          "checks": [
+            {
+              "name": "internal_prints",
+              "actual": 20,
+              "required": 9,
+              "passed": true
+            },
+            {
+              "name": "distinct_timestamps",
+              "actual": 3,
+              "required": 3,
+              "passed": true
+            },
+            {
+              "name": "minimum_member_buy_prints",
+              "actual": 5,
+              "required": 2,
+              "passed": true
+            },
+            {
+              "name": "minimum_member_sell_prints",
+              "actual": 2,
+              "required": 2,
+              "passed": true
+            },
+            {
+              "name": "minimum_member_participation_pct",
+              "actual": 40.168539,
+              "required": 20.0,
+              "passed": true
+            },
+            {
+              "name": "minimum_member_balance_pct",
+              "actual": 44.755245,
+              "required": 40.0,
+              "passed": true
+            },
+            {
+              "name": "group_balance_pct",
+              "actual": 72.191011,
+              "required": 60.0,
+              "passed": true
+            },
+            {
+              "name": "material_edge_strong_connectivity",
+              "actual": true,
+              "required": true,
+              "passed": true
+            },
+            {
+              "name": "uploaded_rg_volume_share_pct",
+              "actual": 2.383663,
+              "required": 25.0,
+              "passed": false
+            },
+            {
+              "name": "group_timestamp_vwap_rise_pct",
+              "actual": 0.934579,
+              "required": 0.5,
+              "passed": true
+            },
+            {
+              "name": "positive_matched_rg_timestamp_vwap_change",
+              "actual": true,
+              "required": true,
+              "passed": true
+            }
+          ]
+        },
+        "context": {
+          "rg_volume_shares": 1493500,
+          "other_or_unattributed_volume_shares": 1457900,
+          "group_vwap": 537.640449,
+          "other_or_unattributed_vwap": 537.042664,
+          "rg_first_timestamp_vwap": 535.000615,
+          "rg_last_timestamp_vwap": 540.0
+        },
+        "timestamp_coverage": {
+          "distinct": 3,
+          "span_seconds": 231.0,
+          "mixed_price_timestamps": 0
+        },
+        "evidence": [
+          "20 observed internal prints across 3 distinct timestamps, covering 2.38% of uploaded RG window volume.",
+          "Individual-net-based group balance is 72.19%; minimum member two-way balance is 44.76%.",
+          "Minimum member involvement is 40.17% of internal volume; the strongest proper subgroup accounts for 59.83%.",
+          "4 directed edges each represent at least 1.0% of internal volume; strongly connected: True.",
+          "Group timestamp-bucket VWAP changed 0.935%; all uploaded RG VWAP changed 0.934% at the exact same endpoint timestamps."
+        ],
+        "limitations": [
+          "Broker codes identify intermediaries, not beneficial owners or accounts. A connected circulation pattern does not establish collusion, wash trading, crossing, intent, or price causation.",
+          "Timestamp-bucket VWAP may change because trade composition changes; matching RG price movement confirms association only. Within-timestamp order and aggressor side are unknown.",
+          "Group and pair windows overlap and are not independent. Their counts, volumes, or scores must not be summed as independent evidence.",
+          "Top-broker and candidate-group caps can omit localized low-volume groups; inspect search coverage. No result rules out coordinated one-way trading or other patterns."
+        ]
+      },
+      "header_adjustment": null
+    },
+    {
+      "date": "2026-10-02",
+      "source": "Running trade 2 10 2026.txt",
+      "trade_count": 2636,
+      "invalid_rows": 0,
+      "rg_count": 2636,
+      "boards": {
+        "RG": 2636
+      },
+      "total_lot": 722205,
+      "same_broker_rg_count": 387,
+      "same_broker_rg_volume_pct": 4.83269985668889,
+      "same_broker_by_code": [
+        {
+          "broker": "XL",
+          "count": 348,
+          "lot": 31506
+        },
+        {
+          "broker": "AK",
+          "count": 22,
+          "lot": 2237
+        },
+        {
+          "broker": "YP",
+          "count": 5,
+          "lot": 520
+        },
+        {
+          "broker": "DR",
+          "count": 3,
+          "lot": 372
+        },
+        {
+          "broker": "CC",
+          "count": 6,
+          "lot": 158
+        },
+        {
+          "broker": "BK",
+          "count": 2,
+          "lot": 108
+        },
+        {
+          "broker": "KK",
+          "count": 1,
+          "lot": 1
+        }
+      ],
+      "first_time": "08:58:00",
+      "last_time": "16:13:02",
+      "first_timestamp_vwap": 540.0,
+      "last_timestamp_vwap": 535.0,
+      "first_to_last_vwap_change_pct": -0.92592592592593,
+      "pair_diagnostics": {
+        "evaluated_windows": 1465,
+        "eligible_windows": 0,
+        "windows_not_eligible": 1465,
+        "failed_gate_counts": {
+          "alternation_pct": 1392,
+          "comparable_direction_transitions": 1161,
+          "distinct_timestamps": 1160,
+          "pair_prints": 1314,
+          "pair_vwap_rise_pct": 1411,
+          "prints_a_buys_b": 988,
+          "prints_b_buys_a": 1149,
+          "reciprocity_pct": 1439,
+          "uploaded_rg_volume_share_pct": 1348
+        },
+        "returned_pairs": 20,
+        "eligible_pairs": 0
+      },
+      "group_diagnostics": {
+        "eligible_windows": 0,
+        "windows_not_eligible": 10409,
+        "eligible_groups": 0,
+        "returned_groups": 20,
+        "failed_gate_counts": {
+          "distinct_timestamps": 3793,
+          "group_balance_pct": 10294,
+          "group_timestamp_vwap_rise_pct": 9072,
+          "internal_prints": 8018,
+          "material_edge_strong_connectivity": 10373,
+          "minimum_member_balance_pct": 10402,
+          "minimum_member_buy_prints": 10005,
+          "minimum_member_participation_pct": 9301,
+          "minimum_member_sell_prints": 10374,
+          "positive_matched_rg_timestamp_vwap_change": 8388,
+          "uploaded_rg_volume_share_pct": 6178
+        }
+      },
+      "pair_coverage": {
+        "input_count": 2636,
+        "rg_count": 2636,
+        "rg_volume_shares": 72220500,
+        "eligible_pair_count": 2249,
+        "eligible_pair_volume_shares": 68730300,
+        "known_pair_volume_pct": 95.1673,
+        "both_brokers_known_count": 2636,
+        "both_brokers_known_volume_pct": 100.0,
+        "excluded_non_rg_count": 0,
+        "evaluated_windows": 1465,
+        "distinct_pairs": 260
+      },
+      "group_coverage": {
+        "input_count": 2636,
+        "rg_count": 2636,
+        "rg_volume_shares": 72220500,
+        "eligible_broker_count": 40,
+        "pool_brokers": [
+          "XL",
+          "DH",
+          "AK",
+          "CC",
+          "BK",
+          "YP",
+          "ZP",
+          "GR",
+          "KK",
+          "DR",
+          "CP",
+          "MG"
+        ],
+        "excluded_broker_count": 28,
+        "pool_internal_rg_volume_shares": 52329000,
+        "excluded_broker_touched_rg_volume_shares": 16401300,
+        "discovered_groups": 327,
+        "searched_groups": 100,
+        "groups_omitted_by_cap": 227,
+        "evaluated_windows": 10409,
+        "search_exhaustive_within_uploaded_tape": false
+      },
+      "eligible_pairs": [],
+      "eligible_groups": [],
+      "top_pair_observation": {
+        "broker_a": "XC",
+        "broker_b": "XL",
+        "window": {
+          "start": "15:34:21",
+          "end": "15:39:21",
+          "start_seconds": 56061.0,
+          "end_seconds": 56361.0,
+          "first_pair_timestamp": "15:36:46"
+        },
+        "count": 10,
+        "distinct_timestamps": 7,
+        "count_a_buys_b": 7,
+        "count_b_buys_a": 3,
+        "volume_a_buys_b": 8400,
+        "volume_b_buys_a": 57500,
+        "volume_shares": 65900,
+        "volume_share_pct": 0.844872,
+        "reciprocity_pct": 25.493171,
+        "price_change_pct": 0.934579,
+        "alternation_pct": 50.0,
+        "dependence_a_pct": 96.769457,
+        "dependence_b_pct": 0.907489,
+        "comparable_direction_transitions": 6,
+        "ambiguous_direction_timestamps": 0,
+        "timestamp_coverage": {
+          "distinct": 7,
+          "span_seconds": 155.0,
+          "mixed_price_timestamps": 0,
+          "ambiguous_direction_timestamps": 0,
+          "comparable_direction_transitions": 6
+        },
+        "score": 40.941115,
+        "score_coverage_pct": 100,
+        "label": "Does not meet review gates",
+        "components": [
+          {
+            "name": "reciprocity",
+            "weight": 20,
+            "score": 25.493171,
+            "available": true,
+            "evidence": "100 × (1 − |A-buys-B volume − B-buys-A volume| / pair volume). Balanced quantities, not identified ownership."
+          },
+          {
+            "name": "dominance",
+            "weight": 20,
+            "score": 0.844872,
+            "available": true,
+            "evidence": "Pair volume / all uploaded RG volume in the inclusive rolling window × 100; unknown-counterparty and same-broker RG prints stay in the denominator."
+          },
+          {
+            "name": "dependence",
+            "weight": 15,
+            "score": 0.907489,
+            "available": true,
+            "evidence": "The smaller of each broker's pair-volume share of all uploaded RG volume involving that broker; each print counted once per broker."
+          },
+          {
+            "name": "alternation",
+            "weight": 15,
+            "score": 50.0,
+            "available": true,
+            "evidence": "Alternating directions / comparable adjacent distinct-timestamp bucket transitions × 100. Mixed-direction buckets make adjacent transitions unavailable."
+          },
+          {
+            "name": "price",
+            "weight": 30,
+            "score": 93.457944,
+            "available": true,
+            "evidence": "First-to-last pair timestamp-bucket VWAP change; score = clamp(change_pct / 0.5 × 50, 0, 100). Unavailable with fewer than two timestamps."
+          }
+        ],
+        "eligibility": {
+          "eligible": false,
+          "checks": [
+            {
+              "name": "pair_prints",
+              "passed": true,
+              "actual": 10,
+              "required": 6
+            },
+            {
+              "name": "distinct_timestamps",
+              "passed": true,
+              "actual": 7,
+              "required": 3
+            },
+            {
+              "name": "prints_a_buys_b",
+              "passed": true,
+              "actual": 7,
+              "required": 2
+            },
+            {
+              "name": "prints_b_buys_a",
+              "passed": true,
+              "actual": 3,
+              "required": 2
+            },
+            {
+              "name": "pair_vwap_rise_pct",
+              "passed": true,
+              "actual": 0.934579,
+              "required": 0.5
+            },
+            {
+              "name": "reciprocity_pct",
+              "passed": false,
+              "actual": 25.493171,
+              "required": 60.0
+            },
+            {
+              "name": "uploaded_rg_volume_share_pct",
+              "passed": false,
+              "actual": 0.844872,
+              "required": 25.0
+            },
+            {
+              "name": "comparable_direction_transitions",
+              "passed": true,
+              "actual": 6,
+              "required": 2
+            },
+            {
+              "name": "alternation_pct",
+              "passed": true,
+              "actual": 50.0,
+              "required": 50.0
+            }
+          ]
+        },
+        "evidence": [
+          "10 actual pair prints across 7 distinct timestamps: 7 A-buys-B and 3 B-buys-A.",
+          "The pair represents 0.84% of uploaded RG volume in this window; two-way quantity balance is 25.49%.",
+          "3 alternating direction transitions among 6 comparable adjacent timestamp transitions.",
+          "Pair timestamp-bucket VWAP changed 0.935% between 15:36:46 and 15:39:21.",
+          "Other or unattributed RG timestamp-bucket VWAP changed -0.917% over its own observed endpoints within the same window; this is context, not an estimated counterfactual."
+        ],
+        "limitations": [
+          "Broker identities represent intermediaries, not accounts or beneficial owners; reciprocal prints do not establish common ownership, wash trading, crossing, or intent.",
+          "Pair VWAP change is price association, not proof the pair raised the market price; aggressor side and order-book impact are unknown.",
+          "An uploaded tape may be incomplete. Opening/closing auction prints, normal liquidity provision, and order slicing may create similar patterns.",
+          "Comparison prints include RG records with unknown counterparties, which may belong to this pair; the nonpair fields mean other or unattributed activity.",
+          "One strongest window per pair is shown. Overlapping windows and different pairs are not independent events and their volumes must not be added."
+        ],
+        "context": {
+          "rg_volume_shares": 7800000,
+          "comparison_population": "Other or unattributed RG prints; unknown counterparties may include this pair.",
+          "nonpair_volume_shares": 7734100,
+          "nonpair_volume_share_pct": 99.155128,
+          "pair_vwap": 530.569044,
+          "nonpair_vwap": 533.417915,
+          "nonpair_price_change_pct": -0.917431,
+          "nonpair_distinct_timestamps": 21,
+          "nonpair_first_timestamp": "15:34:34",
+          "nonpair_last_timestamp": "15:39:21"
+        }
+      },
+      "top_group_observation": {
+        "brokers": [
+          "CC",
+          "XL",
+          "YP"
+        ],
+        "group_size": 3,
+        "window": {
+          "start": "13:57:57",
+          "end": "14:02:57",
+          "start_seconds": 50277.0,
+          "end_seconds": 50577.0,
+          "first_group_timestamp": "14:00:01"
+        },
+        "count": 14,
+        "distinct_timestamps": 6,
+        "volume_shares": 194800,
+        "volume_share_pct": 7.94162,
+        "balance_pct": 76.334702,
+        "price_change_pct": -0.917431,
+        "rg_price_change_pct": -1.0,
+        "member_min_participation_pct": 27.720739,
+        "member_min_balance_pct": 61.111111,
+        "dependence_min_pct": 10.107466,
+        "proper_subgroup_max_volume_share_pct": 72.279261,
+        "strongly_connected": true,
+        "material_edge_count": 4,
+        "member_flows": [
+          {
+            "broker": "CC",
+            "buy_volume_shares": 16500,
+            "sell_volume_shares": 37500,
+            "net_volume_shares": -21000,
+            "buy_count": 3,
+            "sell_count": 4,
+            "participation_pct": 27.720739,
+            "balance_pct": 61.111111,
+            "dependence_pct": 12.999519
+          },
+          {
+            "broker": "XL",
+            "buy_volume_shares": 76800,
+            "sell_volume_shares": 101900,
+            "net_volume_shares": -25100,
+            "buy_count": 8,
+            "sell_count": 4,
+            "participation_pct": 91.735113,
+            "balance_pct": 85.954113,
+            "dependence_pct": 10.107466
+          },
+          {
+            "broker": "YP",
+            "buy_volume_shares": 101500,
+            "sell_volume_shares": 55400,
+            "net_volume_shares": 46100,
+            "buy_count": 3,
+            "sell_count": 6,
+            "participation_pct": 80.544148,
+            "balance_pct": 70.618228,
+            "dependence_pct": 86.877076
+          }
+        ],
+        "score": 24.608551,
+        "score_coverage_pct": 100,
+        "label": "Group activity without rising-price evidence",
+        "components": [
+          {
+            "name": "balance",
+            "weight": 20,
+            "score": 76.334702,
+            "available": true,
+            "evidence": "100 × (1 − sum of absolute individual broker internal net shares / (2 × internal volume)); the signed sum of group net shares is never used as evidence."
+          },
+          {
+            "name": "dominance",
+            "weight": 20,
+            "score": 7.94162,
+            "available": true,
+            "evidence": "Internal group volume / all uploaded RG volume in the inclusive rolling window × 100, including unknown-counterparty and same-broker context."
+          },
+          {
+            "name": "dependence",
+            "weight": 15,
+            "score": 10.107466,
+            "available": true,
+            "evidence": "Minimum across members of internal involvement / all uploaded RG volume involving that broker × 100; a same-broker print counts once in the external denominator."
+          },
+          {
+            "name": "participation",
+            "weight": 15,
+            "score": 41.581109,
+            "available": true,
+            "evidence": "Minimum member involvement percentage / (200 / group size) × 100, capped at 100. Every internal trade involves two group members."
+          },
+          {
+            "name": "price",
+            "weight": 30,
+            "score": 0.0,
+            "available": true,
+            "evidence": "First-to-last group timestamp-bucket VWAP change; clamp(change_pct / 0.5 × 50, 0, 100). A separate gate requires positive all-RG VWAP change at those identical endpoint timestamps."
+          }
+        ],
+        "eligibility": {
+          "eligible": false,
+          "checks": [
+            {
+              "name": "internal_prints",
+              "actual": 14,
+              "required": 9,
+              "passed": true
+            },
+            {
+              "name": "distinct_timestamps",
+              "actual": 6,
+              "required": 3,
+              "passed": true
+            },
+            {
+              "name": "minimum_member_buy_prints",
+              "actual": 3,
+              "required": 2,
+              "passed": true
+            },
+            {
+              "name": "minimum_member_sell_prints",
+              "actual": 4,
+              "required": 2,
+              "passed": true
+            },
+            {
+              "name": "minimum_member_participation_pct",
+              "actual": 27.720739,
+              "required": 20.0,
+              "passed": true
+            },
+            {
+              "name": "minimum_member_balance_pct",
+              "actual": 61.111111,
+              "required": 40.0,
+              "passed": true
+            },
+            {
+              "name": "group_balance_pct",
+              "actual": 76.334702,
+              "required": 60.0,
+              "passed": true
+            },
+            {
+              "name": "material_edge_strong_connectivity",
+              "actual": true,
+              "required": true,
+              "passed": true
+            },
+            {
+              "name": "uploaded_rg_volume_share_pct",
+              "actual": 7.94162,
+              "required": 25.0,
+              "passed": false
+            },
+            {
+              "name": "group_timestamp_vwap_rise_pct",
+              "actual": -0.917431,
+              "required": 0.5,
+              "passed": false
+            },
+            {
+              "name": "positive_matched_rg_timestamp_vwap_change",
+              "actual": false,
+              "required": true,
+              "passed": false
+            }
+          ]
+        },
+        "context": {
+          "rg_volume_shares": 2452900,
+          "other_or_unattributed_volume_shares": 2258100,
+          "group_vwap": 543.426591,
+          "other_or_unattributed_vwap": 542.553696,
+          "rg_first_timestamp_vwap": 545.454545,
+          "rg_last_timestamp_vwap": 540.0
+        },
+        "timestamp_coverage": {
+          "distinct": 6,
+          "span_seconds": 176.0,
+          "mixed_price_timestamps": 2
+        },
+        "evidence": [
+          "14 observed internal prints across 6 distinct timestamps, covering 7.94% of uploaded RG window volume.",
+          "Individual-net-based group balance is 76.33%; minimum member two-way balance is 61.11%.",
+          "Minimum member involvement is 27.72% of internal volume; the strongest proper subgroup accounts for 72.28%.",
+          "4 directed edges each represent at least 1.0% of internal volume; strongly connected: True.",
+          "Group timestamp-bucket VWAP changed -0.917%; all uploaded RG VWAP changed -1.000% at the exact same endpoint timestamps."
+        ],
+        "limitations": [
+          "Broker codes identify intermediaries, not beneficial owners or accounts. A connected circulation pattern does not establish collusion, wash trading, crossing, intent, or price causation.",
+          "Timestamp-bucket VWAP may change because trade composition changes; matching RG price movement confirms association only. Within-timestamp order and aggressor side are unknown.",
+          "Group and pair windows overlap and are not independent. Their counts, volumes, or scores must not be summed as independent evidence.",
+          "Top-broker and candidate-group caps can omit localized low-volume groups; inspect search coverage. No result rules out coordinated one-way trading or other patterns.",
+          "2 internal timestamps contain multiple prices; no within-time price path is inferred."
+        ]
+      },
+      "header_adjustment": null
+    }
+  ]
+}
